@@ -1,0 +1,2 @@
+schedule:
+    - cron: '45 7 * * *'  # Körs 07:45 UTC (08:45 eller 09:45 svensk tid)
