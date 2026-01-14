@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SSSB Tracker | Studentbostadstrender</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <style>
+        body { font-family: 'Inter', sans-serif; background-color: #f3f4f6; }
+        .card { background: white; border-radius: 16px; padding: 24px; box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05); }
+    </style>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+</head>
+<body class="p-6 md:p-12 max-w-7xl mx-auto">
+
+    <header class="mb-10 text-center md:text-left">
+        <h1 class="text-4xl font-extrabold text-gray-900 mb-2">Bostadskollen 🏠</h1>
+        <p class="text-gray-500">Live-statistik över SSSB:s ködagar. Uppdateras dagligen.</p>
+    </header>
+
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mb-10">
+        <div class="card border-l-4 border-blue-500">
+            <p class="text-sm text-gray-500 font-semibold uppercase tracking-wider">Snittkrav (Sthlm)</p>
+            <div class="flex items-end mt-2">
+                <span class="text-4xl font-black text-gray-900">412</span>
+                <span class="text-lg text-gray-600 ml-1 mb-1">dagar</span>
+            </div>
+            <div class="mt-2 text-sm text-red-500 font-medium">
+                ▲ +12 dagar sen förra månaden
+            </div>
+        </div>
+
+        <div class="card border-l-4 border-green-500">
+            <p class="text-sm text-gray-500 font-semibold uppercase tracking-wider">Lättast just nu</p>
+            <div class="flex items-end mt-2">
+                <span class="text-4xl font-black text-gray-900">Pax</span>
+                <span class="text-lg text-gray-600 ml-1 mb-1">(Solna)</span>
+            </div>
+            <div class="mt-2 text-sm text-green-600 font-medium">
+                Kräver endast 150 dagar
+            </div>
+        </div>
+
+        <div class="card border-l-4 border-purple-500 bg-purple-50">
+            <p class="text-sm text-gray-500 font-semibold uppercase tracking-wider">Tips</p>
+            <p class="mt-2 text-gray-800 font-medium">Har du inte dagarna som krävs?</p>
+            <a href="#" class="inline-block mt-3 text-purple-700 font-bold hover:underline">
+                Se hur du fixar högskoleprovet istället →
+            </a>
+        </div>
+    </div>
+
+    <div class="card mb-10">
+        <div class="flex justify-between items-center mb-6">
+            <h2 class="text-xl font-bold text-gray-900">Ködagar över tid (Trend)</h2>
+            <select class="bg-gray-100 border-none rounded-lg px-4 py-2 text-sm font-semibold text-gray-600">
+                <option>Senaste 6 månaderna</option>
+                <option>Senaste året</option>
+            </select>
+        </div>
+        
+        <div class="relative h-64 md:h-96 w-full">
+            <canvas id="trendChart"></canvas>
+        </div>
+    </div>
+
+    <script>
+        // 1. Här skulle du normalt göra: fetch('history.json')...
+        // Men vi fejkar datan nu för att visa hur det ser ut.
+        
+        const ctx = document.getElementById('trendChart').getContext('2d');
+        
+        const myChart = new Chart(ctx, {
+            type: 'line',
+            data: {
+                labels: ['Jan', 'Feb', 'Mar', 'Apr', 'Maj', 'Jun'], // Tiden (X-axel)
+                datasets: [
+                    {
+                        label: 'Lappis (Campus)',
+                        data: [300, 310, 305, 320, 350, 380], // Datan från din JSON
+                        borderColor: '#3b82f6', // Blå
+                        backgroundColor: 'rgba(59, 130, 246, 0.1)',
+                        tension: 0.4, // Gör linjen mjuk och kurvig (snyggt!)
+                        fill: true
+                    },
+                    {
+                        label: 'Kungshamra',
+                        data: [450, 440, 430, 420, 410, 400], 
+                        borderColor: '#10b981', // Grön
+                        tension: 0.4,
+                        borderDash: [5, 5] // Streckad linje för kontrast
+                    }
+                ]
+            },
+            options: {
+                responsive: true,
+                maintainAspectRatio: false,
+                plugins: {
+                    legend: {
+                        position: 'bottom', // Lägg förklaringen under grafen
+                        labels: { usePointStyle: true, padding: 20 }
+                    }
+                },
+                scales: {
+                    y: {
+                        grid: { borderDash: [2, 4], color: '#e5e7eb' }, // Snygga diskreta linjer
+                        beginAtZero: false
+                    },
+                    x: {
+                        grid: { display: false } // Ta bort vertikala linjer för renare look
+                    }
+                }
+            }
+        });
+    </script>
+</body>
+</html>
