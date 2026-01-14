@@ -1,8 +1,10 @@
 [
   {
-    "date": "2026-01-14",
+    "last_seen": "2026-01-14",
+    "published": "2026-01-12",
     "area": "Jerum",
     "address": "Studentbacken 21 / 1418",
+    "type": "2 rum & kök",
     "sqm": 41,
     "rent": 7594,
     "queue_days": 1009,
@@ -10,19 +12,23 @@
     "id": "1106-2106-001"
   },
   {
-    "date": "2026-01-14",
+    "last_seen": "2026-01-14",
+    "published": "2026-01-12",
     "area": "Forum",
     "address": "Körsbärsvägen 4 C / 1318",
+    "type": "Rum i korridor",
     "sqm": 18,
     "rent": 4690,
-    "queue_days": 228,
+    "queue_days": 460,
     "floor": "3",
     "id": "2118-0406-050"
   },
   {
-    "date": "2026-01-14",
+    "last_seen": "2026-01-14",
+    "published": "2026-01-12",
     "area": "Kurland",
     "address": "Kammakargatan 36 B / 1001",
+    "type": "1 rum & pentry",
     "sqm": 35,
     "rent": 10426,
     "queue_days": 782,
@@ -30,9 +36,11 @@
     "id": "3419-3701-002"
   },
   {
-    "date": "2026-01-14",
+    "last_seen": "2026-01-14",
+    "published": "2026-01-12",
     "area": "Idun",
     "address": "Norra Stationsgatan 99 / 1768",
+    "type": "1 rum & pentry",
     "sqm": 24,
     "rent": 8040,
     "queue_days": 782,
@@ -40,9 +48,11 @@
     "id": "3622-9910-023"
   },
   {
-    "date": "2026-01-14",
+    "last_seen": "2026-01-14",
+    "published": "2026-01-12",
     "area": "Embla",
     "address": "Maltgatan 12 / 1601",
+    "type": "1 rum & pentry",
     "sqm": 30,
     "rent": 7582,
     "queue_days": 794,
@@ -50,9 +60,11 @@
     "id": "4415-0108-062"
   },
   {
-    "date": "2026-01-14",
+    "last_seen": "2026-01-14",
+    "published": "2026-01-12",
     "area": "Strix",
     "address": "Armégatan 32 B / 1105",
+    "type": "1 rum & pentry",
     "sqm": 20,
     "rent": 6900,
     "queue_days": 154,
@@ -60,9 +72,11 @@
     "id": "5102-3503-005"
   },
   {
-    "date": "2026-01-14",
+    "last_seen": "2026-01-14",
+    "published": "2026-01-12",
     "area": "Strix",
     "address": "Armégatan 32 B / 1714",
+    "type": "1 rum & pentry",
     "sqm": 20,
     "rent": 7194,
     "queue_days": 146,
@@ -70,9 +84,11 @@
     "id": "5102-3509-014"
   },
   {
-    "date": "2026-01-14",
+    "last_seen": "2026-01-14",
+    "published": "2026-01-12",
     "area": "Strix",
     "address": "Armégatan 32 C / 1208",
+    "type": "2 rum & pentry",
     "sqm": 35,
     "rent": 11359,
     "queue_days": 0,
@@ -80,9 +96,11 @@
     "id": "5102-3603-008"
   },
   {
-    "date": "2026-01-14",
+    "last_seen": "2026-01-14",
+    "published": "2026-01-12",
     "area": "Pax",
     "address": "Emmylundsvägen 3 / 1803",
+    "type": "Rum i korridor",
     "sqm": 17,
     "rent": 4181,
     "queue_days": 463,
@@ -90,119 +108,23 @@
     "id": "5201-0109-049"
   },
   {
-    "date": "2026-01-14",
+    "last_seen": "2026-01-14",
+    "published": "2026-01-12",
     "area": "Kungshamra",
     "address": "Kungshamra 11 / 1125",
+    "type": "2 rum & kök",
     "sqm": 35,
     "rent": 10147,
-    "queue_days": 520,
+    "queue_days": 516,
     "floor": "1",
     "id": "6202-1103-1125"
   },
   {
-    "date": "2026-01-14",
-    "area": "Jerum",
-    "address": "Studentbacken 21 / 1418",
-    "sqm": 41,
-    "rent": 7594,
-    "queue_days": 1009,
-    "floor": "4",
-    "id": "1106-2106-001"
-  },
-  {
-    "date": "2026-01-14",
-    "area": "Forum",
-    "address": "Körsbärsvägen 4 C / 1318",
-    "sqm": 18,
-    "rent": 4690,
-    "queue_days": 228,
-    "floor": "3",
-    "id": "2118-0406-050"
-  },
-  {
-    "date": "2026-01-14",
-    "area": "Kurland",
-    "address": "Kammakargatan 36 B / 1001",
-    "sqm": 35,
-    "rent": 10426,
-    "queue_days": 782,
-    "floor": "Bottenvåning",
-    "id": "3419-3701-002"
-  },
-  {
-    "date": "2026-01-14",
-    "area": "Idun",
-    "address": "Norra Stationsgatan 99 / 1768",
-    "sqm": 24,
-    "rent": 8040,
-    "queue_days": 782,
-    "floor": "7",
-    "id": "3622-9910-023"
-  },
-  {
-    "date": "2026-01-14",
-    "area": "Embla",
-    "address": "Maltgatan 12 / 1601",
-    "sqm": 30,
-    "rent": 7582,
-    "queue_days": 794,
-    "floor": "6",
-    "id": "4415-0108-062"
-  },
-  {
-    "date": "2026-01-14",
-    "area": "Strix",
-    "address": "Armégatan 32 B / 1105",
-    "sqm": 20,
-    "rent": 6900,
-    "queue_days": 154,
-    "floor": "1",
-    "id": "5102-3503-005"
-  },
-  {
-    "date": "2026-01-14",
-    "area": "Strix",
-    "address": "Armégatan 32 B / 1714",
-    "sqm": 20,
-    "rent": 7194,
-    "queue_days": 146,
-    "floor": "7",
-    "id": "5102-3509-014"
-  },
-  {
-    "date": "2026-01-14",
-    "area": "Strix",
-    "address": "Armégatan 32 C / 1208",
-    "sqm": 35,
-    "rent": 11359,
-    "queue_days": 0,
-    "floor": "2",
-    "id": "5102-3603-008"
-  },
-  {
-    "date": "2026-01-14",
-    "area": "Pax",
-    "address": "Emmylundsvägen 3 / 1803",
-    "sqm": 17,
-    "rent": 4181,
-    "queue_days": 463,
-    "floor": "8",
-    "id": "5201-0109-049"
-  },
-  {
-    "date": "2026-01-14",
-    "area": "Kungshamra",
-    "address": "Kungshamra 11 / 1125",
-    "sqm": 35,
-    "rent": 10147,
-    "queue_days": 520,
-    "floor": "1",
-    "id": "6202-1103-1125"
-  },
-  {
-    "date": "2026-01-14",
+    "last_seen": "2026-01-14",
+    "published": "2026-01-12",
     "area": "Kungshamra",
     "address": "Kungshamra 31 / 1020",
+    "type": "Rum i korridor",
     "sqm": 18,
     "rent": 4162,
     "queue_days": 140,
@@ -210,19 +132,23 @@
     "id": "6202-3102-022"
   },
   {
-    "date": "2026-01-14",
+    "last_seen": "2026-01-14",
+    "published": "2026-01-12",
     "area": "Kungshamra",
     "address": "Kungshamra 31 / 1101",
+    "type": "Rum i korridor",
     "sqm": 19,
     "rent": 4162,
-    "queue_days": 47,
+    "queue_days": 0,
     "floor": "1",
     "id": "6202-3103-015"
   },
   {
-    "date": "2026-01-14",
+    "last_seen": "2026-01-14",
+    "published": "2026-01-12",
     "area": "Kungshamra",
     "address": "Kungshamra 31 / 1103",
+    "type": "Rum i korridor",
     "sqm": 19,
     "rent": 4162,
     "queue_days": 0,
@@ -230,9 +156,11 @@
     "id": "6202-3103-017"
   },
   {
-    "date": "2026-01-14",
+    "last_seen": "2026-01-14",
+    "published": "2026-01-12",
     "area": "Kungshamra",
     "address": "Kungshamra 31 / 1104",
+    "type": "Rum i korridor",
     "sqm": 18,
     "rent": 4162,
     "queue_days": 0,
@@ -240,9 +168,11 @@
     "id": "6202-3103-018"
   },
   {
-    "date": "2026-01-14",
+    "last_seen": "2026-01-14",
+    "published": "2026-01-12",
     "area": "Kungshamra",
     "address": "Kungshamra 31 / 1110",
+    "type": "Rum i korridor",
     "sqm": 19,
     "rent": 4162,
     "queue_days": 14,
@@ -250,9 +180,11 @@
     "id": "6202-3103-024"
   },
   {
-    "date": "2026-01-14",
+    "last_seen": "2026-01-14",
+    "published": "2026-01-12",
     "area": "Kungshamra",
     "address": "Kungshamra 31 / 1215",
+    "type": "Rum i korridor",
     "sqm": 19,
     "rent": 4162,
     "queue_days": 0,
@@ -260,9 +192,11 @@
     "id": "6202-3104-005"
   },
   {
-    "date": "2026-01-14",
+    "last_seen": "2026-01-14",
+    "published": "2026-01-12",
     "area": "Kungshamra",
     "address": "Kungshamra 31 / 1218",
+    "type": "Rum i korridor",
     "sqm": 18,
     "rent": 4162,
     "queue_days": 0,
@@ -270,9 +204,11 @@
     "id": "6202-3104-008"
   },
   {
-    "date": "2026-01-14",
+    "last_seen": "2026-01-14",
+    "published": "2026-01-12",
     "area": "Kungshamra",
     "address": "Kungshamra 31 / 1219",
+    "type": "Rum i korridor",
     "sqm": 19,
     "rent": 4162,
     "queue_days": 0,
@@ -280,9 +216,11 @@
     "id": "6202-3104-009"
   },
   {
-    "date": "2026-01-14",
+    "last_seen": "2026-01-14",
+    "published": "2026-01-12",
     "area": "Kungshamra",
     "address": "Kungshamra 31 / 1223",
+    "type": "Rum i korridor",
     "sqm": 19,
     "rent": 4162,
     "queue_days": 0,
@@ -290,19 +228,23 @@
     "id": "6202-3104-013"
   },
   {
-    "date": "2026-01-14",
+    "last_seen": "2026-01-14",
+    "published": "2026-01-12",
     "area": "Kungshamra",
     "address": "Kungshamra 31 / 1224",
+    "type": "Rum i korridor",
     "sqm": 19,
     "rent": 4162,
-    "queue_days": 0,
+    "queue_days": 47,
     "floor": "2",
     "id": "6202-3104-014"
   },
   {
-    "date": "2026-01-14",
+    "last_seen": "2026-01-14",
+    "published": "2026-01-12",
     "area": "Kungshamra",
     "address": "Kungshamra 31 / 1201",
+    "type": "Rum i korridor",
     "sqm": 19,
     "rent": 4162,
     "queue_days": 0,
@@ -310,19 +252,23 @@
     "id": "6202-3104-015"
   },
   {
-    "date": "2026-01-14",
+    "last_seen": "2026-01-14",
+    "published": "2026-01-12",
     "area": "Kungshamra",
     "address": "Kungshamra 31 / 1314",
+    "type": "Rum i korridor",
     "sqm": 18,
     "rent": 4162,
-    "queue_days": 47,
+    "queue_days": 460,
     "floor": "3",
     "id": "6202-3105-004"
   },
   {
-    "date": "2026-01-14",
+    "last_seen": "2026-01-14",
+    "published": "2026-01-12",
     "area": "Kungshamra",
     "address": "Kungshamra 71 / 1004",
+    "type": "Rum i korridor",
     "sqm": 18,
     "rent": 4968,
     "queue_days": 0,
@@ -330,9 +276,11 @@
     "id": "6303-7102-004"
   },
   {
-    "date": "2026-01-14",
+    "last_seen": "2026-01-14",
+    "published": "2026-01-12",
     "area": "Kungshamra",
     "address": "Kungshamra 71 / 1006",
+    "type": "Rum i korridor",
     "sqm": 19,
     "rent": 4968,
     "queue_days": 0,
@@ -340,9 +288,11 @@
     "id": "6303-7102-007"
   },
   {
-    "date": "2026-01-14",
+    "last_seen": "2026-01-14",
+    "published": "2026-01-12",
     "area": "Kungshamra",
     "address": "Kungshamra 71 / 1121",
+    "type": "Rum i korridor",
     "sqm": 19,
     "rent": 4968,
     "queue_days": 90,
@@ -350,9 +300,11 @@
     "id": "6303-7103-011"
   },
   {
-    "date": "2026-01-14",
+    "last_seen": "2026-01-14",
+    "published": "2026-01-12",
     "area": "Kungshamra",
     "address": "Kungshamra 71 / 1101",
+    "type": "Rum i korridor",
     "sqm": 19,
     "rent": 4968,
     "queue_days": 0,
@@ -360,9 +312,11 @@
     "id": "6303-7103-015"
   },
   {
-    "date": "2026-01-14",
+    "last_seen": "2026-01-14",
+    "published": "2026-01-12",
     "area": "Kungshamra",
     "address": "Kungshamra 71 / 1104",
+    "type": "Rum i korridor",
     "sqm": 19,
     "rent": 4968,
     "queue_days": 0,
@@ -370,9 +324,11 @@
     "id": "6303-7103-018"
   },
   {
-    "date": "2026-01-14",
+    "last_seen": "2026-01-14",
+    "published": "2026-01-12",
     "area": "Kungshamra",
     "address": "Kungshamra 71 / 1314",
+    "type": "Rum i korridor",
     "sqm": 18,
     "rent": 4968,
     "queue_days": 90,
@@ -380,9 +336,11 @@
     "id": "6303-7105-004"
   },
   {
-    "date": "2026-01-14",
+    "last_seen": "2026-01-14",
+    "published": "2026-01-12",
     "area": "Kungshamra",
     "address": "Kungshamra 71 / 1316",
+    "type": "Rum i korridor",
     "sqm": 19,
     "rent": 4968,
     "queue_days": 0,
@@ -390,19 +348,23 @@
     "id": "6303-7105-006"
   },
   {
-    "date": "2026-01-14",
+    "last_seen": "2026-01-14",
+    "published": "2026-01-12",
     "area": "Kungshamra",
     "address": "Kungshamra 71 / 1317",
+    "type": "Rum i korridor",
     "sqm": 18,
     "rent": 4968,
-    "queue_days": 70,
+    "queue_days": 0,
     "floor": "3",
     "id": "6303-7105-007"
   },
   {
-    "date": "2026-01-14",
+    "last_seen": "2026-01-14",
+    "published": "2026-01-12",
     "area": "Kungshamra",
     "address": "Kungshamra 71 / 1303",
+    "type": "Rum i korridor",
     "sqm": 19,
     "rent": 4968,
     "queue_days": 46,
@@ -410,19 +372,23 @@
     "id": "6303-7105-017"
   },
   {
-    "date": "2026-01-14",
+    "last_seen": "2026-01-14",
+    "published": "2026-01-12",
     "area": "Kungshamra",
     "address": "Kungshamra 71 / 1304",
+    "type": "Rum i korridor",
     "sqm": 19,
     "rent": 4968,
-    "queue_days": 0,
+    "queue_days": 70,
     "floor": "3",
     "id": "6303-7105-018"
   },
   {
-    "date": "2026-01-14",
+    "last_seen": "2026-01-14",
+    "published": "2026-01-12",
     "area": "Kungshamra",
     "address": "Kungshamra 71 / 1310",
+    "type": "Rum i korridor",
     "sqm": 19,
     "rent": 4968,
     "queue_days": 90,
@@ -430,9 +396,11 @@
     "id": "6303-7105-024"
   },
   {
-    "date": "2026-01-14",
+    "last_seen": "2026-01-14",
+    "published": "2026-01-12",
     "area": "Lappkärrsberget",
     "address": "Professorsslingan 51 / 1402",
+    "type": "1 rum & kök",
     "sqm": 22,
     "rent": 8251,
     "queue_days": 209,
@@ -440,9 +408,11 @@
     "id": "7202-5104-102"
   },
   {
-    "date": "2026-01-14",
+    "last_seen": "2026-01-14",
+    "published": "2026-01-12",
     "area": "Lappkärrsberget",
     "address": "Forskarbacken 21 / 1114",
+    "type": "1 rum & pentry",
     "sqm": 18,
     "rent": 4190,
     "queue_days": 1010,
@@ -450,9 +420,11 @@
     "id": "7505-0902-006"
   },
   {
-    "date": "2026-01-14",
+    "last_seen": "2026-01-14",
+    "published": "2026-01-12",
     "area": "Lappkärrsberget",
     "address": "Forskarbacken 21 / 1509",
+    "type": "Rum i korridor",
     "sqm": 18,
     "rent": 4454,
     "queue_days": 1089,
@@ -460,9 +432,11 @@
     "id": "7505-0906-012"
   },
   {
-    "date": "2026-01-14",
+    "last_seen": "2026-01-14",
+    "published": "2026-01-12",
     "area": "Lappkärrsberget",
     "address": "Forskarbacken 10 / 1003",
+    "type": "Rum i korridor",
     "sqm": 18,
     "rent": 4963,
     "queue_days": 761,
@@ -470,9 +444,11 @@
     "id": "7505-1303-004"
   },
   {
-    "date": "2026-01-14",
+    "last_seen": "2026-01-14",
+    "published": "2026-01-12",
     "area": "Jerum",
     "address": "Studentbacken 21 / 1012",
+    "type": "Rum i korridor",
     "sqm": 17,
     "rent": 4743,
     "queue_days": 408,
@@ -480,9 +456,11 @@
     "id": "1106-2102-008"
   },
   {
-    "date": "2026-01-14",
+    "last_seen": "2026-01-14",
+    "published": "2026-01-12",
     "area": "Jerum",
     "address": "Studentbacken 23 / 1412",
+    "type": "Rum i korridor",
     "sqm": 18,
     "rent": 4968,
     "queue_days": 174,
@@ -490,9 +468,11 @@
     "id": "1106-2306-015"
   },
   {
-    "date": "2026-01-14",
+    "last_seen": "2026-01-14",
+    "published": "2026-01-12",
     "area": "Jerum",
     "address": "Studentbacken 25 / 1001",
+    "type": "Rum i korridor",
     "sqm": 16,
     "rent": 4975,
     "queue_days": 174,
@@ -500,9 +480,11 @@
     "id": "1106-2502-002"
   },
   {
-    "date": "2026-01-14",
+    "last_seen": "2026-01-14",
+    "published": "2026-01-12",
     "area": "Domus",
     "address": "Körsbärsvägen 3 / 1110",
+    "type": "1 rum & pentry",
     "sqm": 19,
     "rent": 4639,
     "queue_days": 1010,
@@ -510,9 +492,11 @@
     "id": "2204-0304-010"
   },
   {
-    "date": "2026-01-14",
+    "last_seen": "2026-01-14",
+    "published": "2026-01-12",
     "area": "Domus",
     "address": "Körsbärsvägen 3 / 1204",
+    "type": "2 rum & kök",
     "sqm": 58,
     "rent": 9331,
     "queue_days": 1231,
@@ -520,9 +504,11 @@
     "id": "2204-0305-004"
   },
   {
-    "date": "2026-01-14",
+    "last_seen": "2026-01-14",
+    "published": "2026-01-12",
     "area": "Idun",
     "address": "Norra Stationsgatan 99 / 1106",
+    "type": "2 rum & pentry",
     "sqm": 27,
     "rent": 8504,
     "queue_days": 547,
@@ -530,9 +516,11 @@
     "id": "3622-9904-154"
   },
   {
-    "date": "2026-01-14",
+    "last_seen": "2026-01-14",
+    "published": "2026-01-12",
     "area": "Balder",
     "address": "Edinsvägen 22 A / 1203",
+    "type": "1 rum & pentry",
     "sqm": 31,
     "rent": 4364,
     "queue_days": 471,
@@ -540,9 +528,11 @@
     "id": "4101-2204-004"
   },
   {
-    "date": "2026-01-14",
+    "last_seen": "2026-01-14",
+    "published": "2026-01-12",
     "area": "Balder",
     "address": "Edinsvägen 22 A / 1214",
+    "type": "Rum i korridor",
     "sqm": 17,
     "rent": 3665,
     "queue_days": 133,
@@ -550,19 +540,23 @@
     "id": "4101-2204-019"
   },
   {
-    "date": "2026-01-14",
+    "last_seen": "2026-01-14",
+    "published": "2026-01-12",
     "area": "Flemingsberg",
     "address": "Röntgenvägen 1 / 1412",
+    "type": "2 rum & pentry",
     "sqm": 42,
     "rent": 6699,
-    "queue_days": 392,
+    "queue_days": 418,
     "floor": "4",
     "id": "4210-0107-009"
   },
   {
-    "date": "2026-01-14",
+    "last_seen": "2026-01-14",
+    "published": "2026-01-12",
     "area": "Embla",
     "address": "Maltgatan 12 / 1112",
+    "type": "1 rum & pentry",
     "sqm": 26,
     "rent": 7005,
     "queue_days": 829,
@@ -570,9 +564,11 @@
     "id": "4415-0103-045"
   },
   {
-    "date": "2026-01-14",
+    "last_seen": "2026-01-14",
+    "published": "2026-01-12",
     "area": "Embla",
     "address": "Maltgatan 4 / 1206",
+    "type": "2 rum & kök",
     "sqm": 57,
     "rent": 12757,
     "queue_days": 342,
@@ -580,9 +576,11 @@
     "id": "4415-0104-017"
   },
   {
-    "date": "2026-01-14",
+    "last_seen": "2026-01-14",
+    "published": "2026-01-12",
     "area": "Birka",
     "address": "Simrishamnsvägen 15 / 1304",
+    "type": "1 rum & kök",
     "sqm": 25,
     "rent": 8662,
     "queue_days": 150,
@@ -590,9 +588,11 @@
     "id": "4703-1504-1304"
   },
   {
-    "date": "2026-01-14",
+    "last_seen": "2026-01-14",
+    "published": "2026-01-12",
     "area": "Strix",
     "address": "Armégatan 32 B / 1211",
+    "type": "1 rum & pentry",
     "sqm": 20,
     "rent": 7208,
     "queue_days": 94,
@@ -600,19 +600,23 @@
     "id": "5102-3504-011"
   },
   {
-    "date": "2026-01-14",
+    "last_seen": "2026-01-14",
+    "published": "2026-01-12",
     "area": "Freja",
     "address": "Gärdesvägen 4 / 1105",
+    "type": "1 rum & pentry",
     "sqm": 23,
     "rent": 5586,
-    "queue_days": 239,
+    "queue_days": 244,
     "floor": "1",
     "id": "5711-0402-005"
   },
   {
-    "date": "2026-01-14",
+    "last_seen": "2026-01-14",
+    "published": "2026-01-12",
     "area": "Kungshamra",
     "address": "Kungshamra 13 B / 1102",
+    "type": "3 rum & kök",
     "sqm": 64,
     "rent": 14802,
     "queue_days": 231,
@@ -620,9 +624,11 @@
     "id": "6202-1303-005"
   },
   {
-    "date": "2026-01-14",
+    "last_seen": "2026-01-14",
+    "published": "2026-01-12",
     "area": "Kungshamra",
     "address": "Kungshamra 21 / 1110",
+    "type": "1 rum & kök",
     "sqm": 18,
     "rent": 7261,
     "queue_days": 0,
@@ -630,9 +636,11 @@
     "id": "6202-2103-1110"
   },
   {
-    "date": "2026-01-14",
+    "last_seen": "2026-01-14",
+    "published": "2026-01-12",
     "area": "Kungshamra",
     "address": "Kungshamra 48 / 1219",
+    "type": "1 rum & pentry",
     "sqm": 23,
     "rent": 5463,
     "queue_days": 511,
@@ -640,9 +648,11 @@
     "id": "6202-4803-010"
   },
   {
-    "date": "2026-01-14",
+    "last_seen": "2026-01-14",
+    "published": "2026-01-12",
     "area": "Kungshamra",
     "address": "Kungshamra 3 / 1311",
+    "type": "1 rum & pentry",
     "sqm": 23,
     "rent": 5463,
     "queue_days": 512,
@@ -650,9 +660,11 @@
     "id": "6404-0304-012"
   },
   {
-    "date": "2026-01-14",
+    "last_seen": "2026-01-14",
+    "published": "2026-01-12",
     "area": "Kungshamra",
     "address": "Kungshamra 82 / 1101",
+    "type": "1 rum & pentry",
     "sqm": 23,
     "rent": 5458,
     "queue_days": 471,
@@ -660,9 +672,11 @@
     "id": "6404-8202-007"
   },
   {
-    "date": "2026-01-14",
+    "last_seen": "2026-01-14",
+    "published": "2026-01-12",
     "area": "Lappkärrsberget",
     "address": "Professorsslingan 47 / 1306",
+    "type": "1 rum & kök",
     "sqm": 22,
     "rent": 8161,
     "queue_days": 55,
@@ -670,9 +684,11 @@
     "id": "7202-4703-106"
   },
   {
-    "date": "2026-01-14",
+    "last_seen": "2026-01-14",
+    "published": "2026-01-12",
     "area": "Lappkärrsberget",
     "address": "Professorsslingan 57 / 1310",
+    "type": "1 rum & kök",
     "sqm": 23,
     "rent": 8608,
     "queue_days": 209,
@@ -680,9 +696,11 @@
     "id": "7202-5705-110"
   },
   {
-    "date": "2026-01-14",
+    "last_seen": "2026-01-14",
+    "published": "2026-01-12",
     "area": "Lappkärrsberget",
     "address": "Professorsslingan 61 / 1310",
+    "type": "1 rum & kök",
     "sqm": 23,
     "rent": 8607,
     "queue_days": 209,
@@ -690,9 +708,11 @@
     "id": "7202-6105-110"
   },
   {
-    "date": "2026-01-14",
+    "last_seen": "2026-01-14",
+    "published": "2026-01-12",
     "area": "Lappkärrsberget",
     "address": "Professorsslingan 43 / 1203",
+    "type": "3 rum & pentry",
     "sqm": 58,
     "rent": 9785,
     "queue_days": 874,
@@ -700,9 +720,11 @@
     "id": "7303-3104-003"
   },
   {
-    "date": "2026-01-14",
+    "last_seen": "2026-01-14",
+    "published": "2026-01-12",
     "area": "Lappkärrsberget",
     "address": "Professorsslingan 13 / 1108",
+    "type": "Rum i korridor",
     "sqm": 18,
     "rent": 4991,
     "queue_days": 227,
@@ -710,9 +732,11 @@
     "id": "7505-2003-009"
   },
   {
-    "date": "2026-01-14",
+    "last_seen": "2026-01-14",
+    "published": "2026-01-12",
     "area": "Marieberg",
     "address": "Fyrverkarbacken 23 / 1202",
+    "type": "2 rum & pentry",
     "sqm": 30,
     "rent": 6460,
     "queue_days": 932,
