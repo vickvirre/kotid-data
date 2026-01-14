@@ -1,0 +1,722 @@
+[
+  {
+    "date": "2026-01-14",
+    "area": "Jerum",
+    "address": "Studentbacken 21 / 1418",
+    "sqm": 41,
+    "rent": 7594,
+    "queue_days": 1009,
+    "floor": "4",
+    "id": "1106-2106-001"
+  },
+  {
+    "date": "2026-01-14",
+    "area": "Forum",
+    "address": "Körsbärsvägen 4 C / 1318",
+    "sqm": 18,
+    "rent": 4690,
+    "queue_days": 228,
+    "floor": "3",
+    "id": "2118-0406-050"
+  },
+  {
+    "date": "2026-01-14",
+    "area": "Kurland",
+    "address": "Kammakargatan 36 B / 1001",
+    "sqm": 35,
+    "rent": 10426,
+    "queue_days": 782,
+    "floor": "Bottenvåning",
+    "id": "3419-3701-002"
+  },
+  {
+    "date": "2026-01-14",
+    "area": "Idun",
+    "address": "Norra Stationsgatan 99 / 1768",
+    "sqm": 24,
+    "rent": 8040,
+    "queue_days": 782,
+    "floor": "7",
+    "id": "3622-9910-023"
+  },
+  {
+    "date": "2026-01-14",
+    "area": "Embla",
+    "address": "Maltgatan 12 / 1601",
+    "sqm": 30,
+    "rent": 7582,
+    "queue_days": 794,
+    "floor": "6",
+    "id": "4415-0108-062"
+  },
+  {
+    "date": "2026-01-14",
+    "area": "Strix",
+    "address": "Armégatan 32 B / 1105",
+    "sqm": 20,
+    "rent": 6900,
+    "queue_days": 154,
+    "floor": "1",
+    "id": "5102-3503-005"
+  },
+  {
+    "date": "2026-01-14",
+    "area": "Strix",
+    "address": "Armégatan 32 B / 1714",
+    "sqm": 20,
+    "rent": 7194,
+    "queue_days": 146,
+    "floor": "7",
+    "id": "5102-3509-014"
+  },
+  {
+    "date": "2026-01-14",
+    "area": "Strix",
+    "address": "Armégatan 32 C / 1208",
+    "sqm": 35,
+    "rent": 11359,
+    "queue_days": 0,
+    "floor": "2",
+    "id": "5102-3603-008"
+  },
+  {
+    "date": "2026-01-14",
+    "area": "Pax",
+    "address": "Emmylundsvägen 3 / 1803",
+    "sqm": 17,
+    "rent": 4181,
+    "queue_days": 463,
+    "floor": "8",
+    "id": "5201-0109-049"
+  },
+  {
+    "date": "2026-01-14",
+    "area": "Kungshamra",
+    "address": "Kungshamra 11 / 1125",
+    "sqm": 35,
+    "rent": 10147,
+    "queue_days": 520,
+    "floor": "1",
+    "id": "6202-1103-1125"
+  },
+  {
+    "date": "2026-01-14",
+    "area": "Jerum",
+    "address": "Studentbacken 21 / 1418",
+    "sqm": 41,
+    "rent": 7594,
+    "queue_days": 1009,
+    "floor": "4",
+    "id": "1106-2106-001"
+  },
+  {
+    "date": "2026-01-14",
+    "area": "Forum",
+    "address": "Körsbärsvägen 4 C / 1318",
+    "sqm": 18,
+    "rent": 4690,
+    "queue_days": 228,
+    "floor": "3",
+    "id": "2118-0406-050"
+  },
+  {
+    "date": "2026-01-14",
+    "area": "Kurland",
+    "address": "Kammakargatan 36 B / 1001",
+    "sqm": 35,
+    "rent": 10426,
+    "queue_days": 782,
+    "floor": "Bottenvåning",
+    "id": "3419-3701-002"
+  },
+  {
+    "date": "2026-01-14",
+    "area": "Idun",
+    "address": "Norra Stationsgatan 99 / 1768",
+    "sqm": 24,
+    "rent": 8040,
+    "queue_days": 782,
+    "floor": "7",
+    "id": "3622-9910-023"
+  },
+  {
+    "date": "2026-01-14",
+    "area": "Embla",
+    "address": "Maltgatan 12 / 1601",
+    "sqm": 30,
+    "rent": 7582,
+    "queue_days": 794,
+    "floor": "6",
+    "id": "4415-0108-062"
+  },
+  {
+    "date": "2026-01-14",
+    "area": "Strix",
+    "address": "Armégatan 32 B / 1105",
+    "sqm": 20,
+    "rent": 6900,
+    "queue_days": 154,
+    "floor": "1",
+    "id": "5102-3503-005"
+  },
+  {
+    "date": "2026-01-14",
+    "area": "Strix",
+    "address": "Armégatan 32 B / 1714",
+    "sqm": 20,
+    "rent": 7194,
+    "queue_days": 146,
+    "floor": "7",
+    "id": "5102-3509-014"
+  },
+  {
+    "date": "2026-01-14",
+    "area": "Strix",
+    "address": "Armégatan 32 C / 1208",
+    "sqm": 35,
+    "rent": 11359,
+    "queue_days": 0,
+    "floor": "2",
+    "id": "5102-3603-008"
+  },
+  {
+    "date": "2026-01-14",
+    "area": "Pax",
+    "address": "Emmylundsvägen 3 / 1803",
+    "sqm": 17,
+    "rent": 4181,
+    "queue_days": 463,
+    "floor": "8",
+    "id": "5201-0109-049"
+  },
+  {
+    "date": "2026-01-14",
+    "area": "Kungshamra",
+    "address": "Kungshamra 11 / 1125",
+    "sqm": 35,
+    "rent": 10147,
+    "queue_days": 520,
+    "floor": "1",
+    "id": "6202-1103-1125"
+  },
+  {
+    "date": "2026-01-14",
+    "area": "Kungshamra",
+    "address": "Kungshamra 31 / 1020",
+    "sqm": 18,
+    "rent": 4162,
+    "queue_days": 140,
+    "floor": "Bottenvåning",
+    "id": "6202-3102-022"
+  },
+  {
+    "date": "2026-01-14",
+    "area": "Kungshamra",
+    "address": "Kungshamra 31 / 1101",
+    "sqm": 19,
+    "rent": 4162,
+    "queue_days": 47,
+    "floor": "1",
+    "id": "6202-3103-015"
+  },
+  {
+    "date": "2026-01-14",
+    "area": "Kungshamra",
+    "address": "Kungshamra 31 / 1103",
+    "sqm": 19,
+    "rent": 4162,
+    "queue_days": 0,
+    "floor": "1",
+    "id": "6202-3103-017"
+  },
+  {
+    "date": "2026-01-14",
+    "area": "Kungshamra",
+    "address": "Kungshamra 31 / 1104",
+    "sqm": 18,
+    "rent": 4162,
+    "queue_days": 0,
+    "floor": "1",
+    "id": "6202-3103-018"
+  },
+  {
+    "date": "2026-01-14",
+    "area": "Kungshamra",
+    "address": "Kungshamra 31 / 1110",
+    "sqm": 19,
+    "rent": 4162,
+    "queue_days": 14,
+    "floor": "1",
+    "id": "6202-3103-024"
+  },
+  {
+    "date": "2026-01-14",
+    "area": "Kungshamra",
+    "address": "Kungshamra 31 / 1215",
+    "sqm": 19,
+    "rent": 4162,
+    "queue_days": 0,
+    "floor": "2",
+    "id": "6202-3104-005"
+  },
+  {
+    "date": "2026-01-14",
+    "area": "Kungshamra",
+    "address": "Kungshamra 31 / 1218",
+    "sqm": 18,
+    "rent": 4162,
+    "queue_days": 0,
+    "floor": "2",
+    "id": "6202-3104-008"
+  },
+  {
+    "date": "2026-01-14",
+    "area": "Kungshamra",
+    "address": "Kungshamra 31 / 1219",
+    "sqm": 19,
+    "rent": 4162,
+    "queue_days": 0,
+    "floor": "2",
+    "id": "6202-3104-009"
+  },
+  {
+    "date": "2026-01-14",
+    "area": "Kungshamra",
+    "address": "Kungshamra 31 / 1223",
+    "sqm": 19,
+    "rent": 4162,
+    "queue_days": 0,
+    "floor": "2",
+    "id": "6202-3104-013"
+  },
+  {
+    "date": "2026-01-14",
+    "area": "Kungshamra",
+    "address": "Kungshamra 31 / 1224",
+    "sqm": 19,
+    "rent": 4162,
+    "queue_days": 0,
+    "floor": "2",
+    "id": "6202-3104-014"
+  },
+  {
+    "date": "2026-01-14",
+    "area": "Kungshamra",
+    "address": "Kungshamra 31 / 1201",
+    "sqm": 19,
+    "rent": 4162,
+    "queue_days": 0,
+    "floor": "2",
+    "id": "6202-3104-015"
+  },
+  {
+    "date": "2026-01-14",
+    "area": "Kungshamra",
+    "address": "Kungshamra 31 / 1314",
+    "sqm": 18,
+    "rent": 4162,
+    "queue_days": 47,
+    "floor": "3",
+    "id": "6202-3105-004"
+  },
+  {
+    "date": "2026-01-14",
+    "area": "Kungshamra",
+    "address": "Kungshamra 71 / 1004",
+    "sqm": 18,
+    "rent": 4968,
+    "queue_days": 0,
+    "floor": "Bottenvåning",
+    "id": "6303-7102-004"
+  },
+  {
+    "date": "2026-01-14",
+    "area": "Kungshamra",
+    "address": "Kungshamra 71 / 1006",
+    "sqm": 19,
+    "rent": 4968,
+    "queue_days": 0,
+    "floor": "Bottenvåning",
+    "id": "6303-7102-007"
+  },
+  {
+    "date": "2026-01-14",
+    "area": "Kungshamra",
+    "address": "Kungshamra 71 / 1121",
+    "sqm": 19,
+    "rent": 4968,
+    "queue_days": 90,
+    "floor": "1",
+    "id": "6303-7103-011"
+  },
+  {
+    "date": "2026-01-14",
+    "area": "Kungshamra",
+    "address": "Kungshamra 71 / 1101",
+    "sqm": 19,
+    "rent": 4968,
+    "queue_days": 0,
+    "floor": "1",
+    "id": "6303-7103-015"
+  },
+  {
+    "date": "2026-01-14",
+    "area": "Kungshamra",
+    "address": "Kungshamra 71 / 1104",
+    "sqm": 19,
+    "rent": 4968,
+    "queue_days": 0,
+    "floor": "1",
+    "id": "6303-7103-018"
+  },
+  {
+    "date": "2026-01-14",
+    "area": "Kungshamra",
+    "address": "Kungshamra 71 / 1314",
+    "sqm": 18,
+    "rent": 4968,
+    "queue_days": 90,
+    "floor": "3",
+    "id": "6303-7105-004"
+  },
+  {
+    "date": "2026-01-14",
+    "area": "Kungshamra",
+    "address": "Kungshamra 71 / 1316",
+    "sqm": 19,
+    "rent": 4968,
+    "queue_days": 0,
+    "floor": "3",
+    "id": "6303-7105-006"
+  },
+  {
+    "date": "2026-01-14",
+    "area": "Kungshamra",
+    "address": "Kungshamra 71 / 1317",
+    "sqm": 18,
+    "rent": 4968,
+    "queue_days": 70,
+    "floor": "3",
+    "id": "6303-7105-007"
+  },
+  {
+    "date": "2026-01-14",
+    "area": "Kungshamra",
+    "address": "Kungshamra 71 / 1303",
+    "sqm": 19,
+    "rent": 4968,
+    "queue_days": 46,
+    "floor": "3",
+    "id": "6303-7105-017"
+  },
+  {
+    "date": "2026-01-14",
+    "area": "Kungshamra",
+    "address": "Kungshamra 71 / 1304",
+    "sqm": 19,
+    "rent": 4968,
+    "queue_days": 0,
+    "floor": "3",
+    "id": "6303-7105-018"
+  },
+  {
+    "date": "2026-01-14",
+    "area": "Kungshamra",
+    "address": "Kungshamra 71 / 1310",
+    "sqm": 19,
+    "rent": 4968,
+    "queue_days": 90,
+    "floor": "3",
+    "id": "6303-7105-024"
+  },
+  {
+    "date": "2026-01-14",
+    "area": "Lappkärrsberget",
+    "address": "Professorsslingan 51 / 1402",
+    "sqm": 22,
+    "rent": 8251,
+    "queue_days": 209,
+    "floor": "4",
+    "id": "7202-5104-102"
+  },
+  {
+    "date": "2026-01-14",
+    "area": "Lappkärrsberget",
+    "address": "Forskarbacken 21 / 1114",
+    "sqm": 18,
+    "rent": 4190,
+    "queue_days": 1010,
+    "floor": "1",
+    "id": "7505-0902-006"
+  },
+  {
+    "date": "2026-01-14",
+    "area": "Lappkärrsberget",
+    "address": "Forskarbacken 21 / 1509",
+    "sqm": 18,
+    "rent": 4454,
+    "queue_days": 1089,
+    "floor": "5",
+    "id": "7505-0906-012"
+  },
+  {
+    "date": "2026-01-14",
+    "area": "Lappkärrsberget",
+    "address": "Forskarbacken 10 / 1003",
+    "sqm": 18,
+    "rent": 4963,
+    "queue_days": 761,
+    "floor": "2",
+    "id": "7505-1303-004"
+  },
+  {
+    "date": "2026-01-14",
+    "area": "Jerum",
+    "address": "Studentbacken 21 / 1012",
+    "sqm": 17,
+    "rent": 4743,
+    "queue_days": 408,
+    "floor": "Bottenvåning",
+    "id": "1106-2102-008"
+  },
+  {
+    "date": "2026-01-14",
+    "area": "Jerum",
+    "address": "Studentbacken 23 / 1412",
+    "sqm": 18,
+    "rent": 4968,
+    "queue_days": 174,
+    "floor": "4",
+    "id": "1106-2306-015"
+  },
+  {
+    "date": "2026-01-14",
+    "area": "Jerum",
+    "address": "Studentbacken 25 / 1001",
+    "sqm": 16,
+    "rent": 4975,
+    "queue_days": 174,
+    "floor": "Bottenvåning",
+    "id": "1106-2502-002"
+  },
+  {
+    "date": "2026-01-14",
+    "area": "Domus",
+    "address": "Körsbärsvägen 3 / 1110",
+    "sqm": 19,
+    "rent": 4639,
+    "queue_days": 1010,
+    "floor": "1",
+    "id": "2204-0304-010"
+  },
+  {
+    "date": "2026-01-14",
+    "area": "Domus",
+    "address": "Körsbärsvägen 3 / 1204",
+    "sqm": 58,
+    "rent": 9331,
+    "queue_days": 1231,
+    "floor": "2",
+    "id": "2204-0305-004"
+  },
+  {
+    "date": "2026-01-14",
+    "area": "Idun",
+    "address": "Norra Stationsgatan 99 / 1106",
+    "sqm": 27,
+    "rent": 8504,
+    "queue_days": 547,
+    "floor": "1",
+    "id": "3622-9904-154"
+  },
+  {
+    "date": "2026-01-14",
+    "area": "Balder",
+    "address": "Edinsvägen 22 A / 1203",
+    "sqm": 31,
+    "rent": 4364,
+    "queue_days": 471,
+    "floor": "2",
+    "id": "4101-2204-004"
+  },
+  {
+    "date": "2026-01-14",
+    "area": "Balder",
+    "address": "Edinsvägen 22 A / 1214",
+    "sqm": 17,
+    "rent": 3665,
+    "queue_days": 133,
+    "floor": "2",
+    "id": "4101-2204-019"
+  },
+  {
+    "date": "2026-01-14",
+    "area": "Flemingsberg",
+    "address": "Röntgenvägen 1 / 1412",
+    "sqm": 42,
+    "rent": 6699,
+    "queue_days": 392,
+    "floor": "4",
+    "id": "4210-0107-009"
+  },
+  {
+    "date": "2026-01-14",
+    "area": "Embla",
+    "address": "Maltgatan 12 / 1112",
+    "sqm": 26,
+    "rent": 7005,
+    "queue_days": 829,
+    "floor": "1",
+    "id": "4415-0103-045"
+  },
+  {
+    "date": "2026-01-14",
+    "area": "Embla",
+    "address": "Maltgatan 4 / 1206",
+    "sqm": 57,
+    "rent": 12757,
+    "queue_days": 342,
+    "floor": "2",
+    "id": "4415-0104-017"
+  },
+  {
+    "date": "2026-01-14",
+    "area": "Birka",
+    "address": "Simrishamnsvägen 15 / 1304",
+    "sqm": 25,
+    "rent": 8662,
+    "queue_days": 150,
+    "floor": "3",
+    "id": "4703-1504-1304"
+  },
+  {
+    "date": "2026-01-14",
+    "area": "Strix",
+    "address": "Armégatan 32 B / 1211",
+    "sqm": 20,
+    "rent": 7208,
+    "queue_days": 94,
+    "floor": "2",
+    "id": "5102-3504-011"
+  },
+  {
+    "date": "2026-01-14",
+    "area": "Freja",
+    "address": "Gärdesvägen 4 / 1105",
+    "sqm": 23,
+    "rent": 5586,
+    "queue_days": 239,
+    "floor": "1",
+    "id": "5711-0402-005"
+  },
+  {
+    "date": "2026-01-14",
+    "area": "Kungshamra",
+    "address": "Kungshamra 13 B / 1102",
+    "sqm": 64,
+    "rent": 14802,
+    "queue_days": 231,
+    "floor": "1",
+    "id": "6202-1303-005"
+  },
+  {
+    "date": "2026-01-14",
+    "area": "Kungshamra",
+    "address": "Kungshamra 21 / 1110",
+    "sqm": 18,
+    "rent": 7261,
+    "queue_days": 0,
+    "floor": "1",
+    "id": "6202-2103-1110"
+  },
+  {
+    "date": "2026-01-14",
+    "area": "Kungshamra",
+    "address": "Kungshamra 48 / 1219",
+    "sqm": 23,
+    "rent": 5463,
+    "queue_days": 511,
+    "floor": "2",
+    "id": "6202-4803-010"
+  },
+  {
+    "date": "2026-01-14",
+    "area": "Kungshamra",
+    "address": "Kungshamra 3 / 1311",
+    "sqm": 23,
+    "rent": 5463,
+    "queue_days": 512,
+    "floor": "3",
+    "id": "6404-0304-012"
+  },
+  {
+    "date": "2026-01-14",
+    "area": "Kungshamra",
+    "address": "Kungshamra 82 / 1101",
+    "sqm": 23,
+    "rent": 5458,
+    "queue_days": 471,
+    "floor": "1",
+    "id": "6404-8202-007"
+  },
+  {
+    "date": "2026-01-14",
+    "area": "Lappkärrsberget",
+    "address": "Professorsslingan 47 / 1306",
+    "sqm": 22,
+    "rent": 8161,
+    "queue_days": 55,
+    "floor": "3",
+    "id": "7202-4703-106"
+  },
+  {
+    "date": "2026-01-14",
+    "area": "Lappkärrsberget",
+    "address": "Professorsslingan 57 / 1310",
+    "sqm": 23,
+    "rent": 8608,
+    "queue_days": 209,
+    "floor": "3",
+    "id": "7202-5705-110"
+  },
+  {
+    "date": "2026-01-14",
+    "area": "Lappkärrsberget",
+    "address": "Professorsslingan 61 / 1310",
+    "sqm": 23,
+    "rent": 8607,
+    "queue_days": 209,
+    "floor": "3",
+    "id": "7202-6105-110"
+  },
+  {
+    "date": "2026-01-14",
+    "area": "Lappkärrsberget",
+    "address": "Professorsslingan 43 / 1203",
+    "sqm": 58,
+    "rent": 9785,
+    "queue_days": 874,
+    "floor": "2",
+    "id": "7303-3104-003"
+  },
+  {
+    "date": "2026-01-14",
+    "area": "Lappkärrsberget",
+    "address": "Professorsslingan 13 / 1108",
+    "sqm": 18,
+    "rent": 4991,
+    "queue_days": 227,
+    "floor": "1",
+    "id": "7505-2003-009"
+  },
+  {
+    "date": "2026-01-14",
+    "area": "Marieberg",
+    "address": "Fyrverkarbacken 23 / 1202",
+    "sqm": 30,
+    "rent": 6460,
+    "queue_days": 932,
+    "floor": "2",
+    "id": "8303-010010031"
+  }
+]
