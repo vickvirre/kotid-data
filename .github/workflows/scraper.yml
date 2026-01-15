@@ -2,8 +2,17 @@ name: SSSB Scraper
 
 on:
   schedule:
-    - cron: '45 7 * * *'  # Körs ca 08:45 svensk tid varje dag
-  workflow_dispatch:      # <--- Detta ger dig en "Kör nu"-knapp!
+    # 1. VARJE morgon: 07:55 UTC 
+    # = 09:55 på sommaren (Perfekt inför 10:00-deadline)
+    # = 08:55 på vintern (Säkert)
+    - cron: '55 7 * * *'
+
+    # 2. BARA Måndagar: 13:55 UTC
+    # = 15:55 på sommaren (Perfekt inför 16:00-deadline)
+    # = 14:55 på vintern (Säkert)
+    - cron: '55 13 * * 1'
+
+  workflow_dispatch:      # Gör att du fortfarande kan starta den manuellt
 
 permissions:
   contents: write

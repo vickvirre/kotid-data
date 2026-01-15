@@ -81,7 +81,7 @@
     </div>
 
     <nav class="relative z-50 flex justify-between items-center max-w-6xl mx-auto px-6 py-8">
-        <div class="text-xl font-bold tracking-tight">Bostadskoden</div>
+        <div class="text-xl font-bold tracking-tight">Kotid.se</div>
         <a href="https://hpkoden.se" class="text-sm font-semibold text-gray-400 hover:text-white transition">Gå till HPKoden →</a>
     </nav>
 
@@ -174,37 +174,49 @@
         <div class="h-1 w-1 bg-gray-700 rounded-full mx-auto"></div>
     </footer>
 
-    <script>
+<script>
         // Hämtar data från history.json
         fetch('history.json')
             .then(response => response.json())
             .then(data => {
-                // Vi vill bara visa bostäder som faktiskt har köpoäng (> 0)
-                const activeListings = data.filter(item => item.queue_days > 0);
+                
+                // --- STEG 1: FILTRERA FRAM BARA "FACIT" ---
+                // Vi vill BARA ha de som inte är aktiva längre (is_active: false)
+                // Det är detta som är den "färdiga" statistiken.
+                const finishedAuctions = data.filter(item => item.is_active === false && item.queue_days > 0);
 
-                // --- 1. Uppdatera Snitt ---
-                const totalDays = activeListings.reduce((sum, item) => sum + item.queue_days, 0);
-                const averageDays = Math.round(totalDays / activeListings.length);
+                // Kontroll: Om vi inte har någon historik än (första veckan)
+                if (finishedAuctions.length === 0) {
+                    document.getElementById('avg-days').innerText = "-";
+                    document.getElementById('total-count').innerText = "0 (Samlar data...)";
+                    document.getElementById('fastest-area').innerText = "Väntar...";
+                    document.getElementById('fastest-type').innerText = "Inväntar deadlines";
+                    document.getElementById('fastest-days').innerText = "-";
+                    document.getElementById('top-list').innerHTML = '<div class="text-center py-4 text-gray-500">Inga avslutade uthyrningar än.<br>Databasen uppdateras efter nästa deadline.</div>';
+                    return; // Avbryt, vi kan inte räkna ut snitt på ingenting
+                }
+
+                // --- STEG 2: RÄKNA UT SNITTET PÅ HISTORIKEN ---
+                const totalDays = finishedAuctions.reduce((sum, item) => sum + item.queue_days, 0);
+                const averageDays = Math.round(totalDays / finishedAuctions.length);
                 
                 document.getElementById('avg-days').innerText = averageDays;
-                document.getElementById('total-count').innerText = activeListings.length;
+                document.getElementById('total-count').innerText = finishedAuctions.length;
 
-                // --- 2. Hitta snabbaste vägen (minst dagar) ---
-                // Sortera listan: Lägst dagar först
-                const sortedList = [...activeListings].sort((a, b) => a.queue_days - b.queue_days);
+                // --- STEG 3: HITTA VINNAREN (LÄGST DAGAR I HISTORIKEN) ---
+                const sortedList = [...finishedAuctions].sort((a, b) => a.queue_days - b.queue_days);
                 const winner = sortedList[0];
 
                 if (winner) {
                     document.getElementById('fastest-area').innerText = winner.area;
-                    document.getElementById('fastest-type').innerText = winner.type; // T.ex "Rum i korridor"
+                    document.getElementById('fastest-type').innerText = winner.type;
                     document.getElementById('fastest-days').innerText = winner.queue_days;
                 }
 
-                // --- 3. Skapa topplistan (Topp 5) ---
+                // --- STEG 4: TOPPLISTAN (HISTORIK) ---
                 const topListContainer = document.getElementById('top-list');
-                topListContainer.innerHTML = ''; // Töm laddningstext
+                topListContainer.innerHTML = ''; 
 
-                // Ta de 5 första från den sorterade listan
                 sortedList.slice(0, 5).forEach((item, index) => {
                     const html = `
                         <div class="flex items-center justify-between p-3 rounded-xl hover:bg-white/5 transition border border-transparent hover:border-white/5">
@@ -228,7 +240,7 @@
             })
             .catch(error => {
                 console.error('Kunde inte hämta data:', error);
-                document.getElementById('avg-days').innerText = "---";
+                document.getElementById('avg-days').innerText = "Err";
             });
     </script>
 
