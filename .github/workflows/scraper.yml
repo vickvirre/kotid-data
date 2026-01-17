@@ -2,17 +2,20 @@ name: SSSB Scraper
 
 on:
   schedule:
-    # 1. VARJE morgon: 07:55 UTC 
-    # = 09:55 på sommaren (Perfekt inför 10:00-deadline)
-    # = 08:55 på vintern (Säkert)
-    - cron: '55 7 * * *'
-
-    # 2. BARA Måndagar: 13:55 UTC
-    # = 15:55 på sommaren (Perfekt inför 16:00-deadline)
-    # = 14:55 på vintern (Säkert)
+    # --- MÅNDAGAR (Deadline 15:55 Svensk tid) ---
+    # Körs 13:55 UTC (Blir 15:55 på Sommar / 14:55 på Vinter)
     - cron: '55 13 * * 1'
+    # Körs 14:55 UTC (Blir 16:55 på Sommar / 15:55 på Vinter - RÄTT PÅ VINTERN!)
+    - cron: '55 14 * * 1'
 
-  workflow_dispatch:      # Gör att du fortfarande kan starta den manuellt
+    # --- TORSDAGAR (Deadline 09:55 Svensk tid) ---
+    # Körs 07:55 UTC (Blir 09:55 på Sommar / 08:55 på Vinter)
+    - cron: '55 7 * * 4'
+    # Körs 08:55 UTC (Blir 10:55 på Sommar / 09:55 på Vinter - RÄTT PÅ VINTERN!)
+    - cron: '55 8 * * 4'
+
+  # Låter oss köra manuellt vid behov
+  workflow_dispatch:
 
 permissions:
   contents: write
@@ -43,4 +46,4 @@ jobs:
           git config --global user.name "GitHub Action"
           git config --global user.email "action@github.com"
           git add history.json
-          git diff --quiet && git diff --staged --quiet || (git commit -m "Auto-update data" && git push)
+          git diff --quiet && git diff --staged --quiet || (git commit -m "Auto-update data [skip ci]" && git push)

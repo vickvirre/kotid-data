@@ -38,11 +38,27 @@ def scrape_sssb_api():
         parsed_apartments = []
         for apt in apartments_list:
             try:
+                # --- DATA TVÄTT ---
                 raw_rent = str(apt.get("hyra", "0")).replace(" ", "").replace("\xa0", "")
-                raw_queue = str(apt.get("antalIntresse", "0"))
-                queue_match = re.search(r"(\d+)", raw_queue)
-                queue_days = int(queue_match.group(1)) if queue_match else 0
                 
+                # Hämta intresse-strängen, ex: "277 (10st)"
+                raw_interest = str(apt.get("antalIntresse", "0"))
+                
+                # 1. Hitta ANTAL SÖKANDE (Siffran inuti parentesen)
+                applicants_match = re.search(r"\((\d+)", raw_interest)
+                if applicants_match:
+                    applicants_count = int(applicants_match.group(1))
+                else:
+                    applicants_count = 0
+
+                # 2. Hitta KÖDAGAR (Om det finns 'poang', annars gissa 0)
+                # Ibland är poängen null i listan och syns bara på detaljsidan
+                raw_points = apt.get("poang")
+                if raw_points:
+                    queue_days = int(raw_points) 
+                else:
+                    queue_days = 0 
+
                 parsed_apt = {
                     "last_seen": datetime.now().strftime("%Y-%m-%d"),
                     "published": apt.get("publiceratDatum", ""),
@@ -52,12 +68,14 @@ def scrape_sssb_api():
                     "sqm": int(apt.get("yta", 0)),
                     "rent": int(raw_rent) if raw_rent.isdigit() else 0,
                     "queue_days": queue_days,
+                    "applicants": applicants_count,  # <--- HÄR ÄR NYA DATAN!
                     "floor": apt.get("vaning", ""),
                     "id": apt.get("objektNr", ""),
-                    "is_active": True # Alla vi hittar nu är aktiva!
+                    "is_active": True
                 }
                 parsed_apartments.append(parsed_apt)
-            except:
+            except Exception as loop_error:
+                # print(f"Hoppade över en rad pga fel: {loop_error}") 
                 continue
                 
         return parsed_apartments
@@ -77,11 +95,16 @@ if __name__ == "__main__":
         except:
             history = []
 
+        # --- STÄDPATRULLEN ---
+        # Fixar gamla objekt som saknar 'applicants' så inte koden kraschar
+        for old_item in history:
+            if "applicants" not in old_item:
+                old_item["applicants"] = 0
+
         # 1. Skapa dictionary av all historik
         history_dict = {f"{item['id']}_{item.get('published', '')}": item for item in history}
 
         # 2. VIKTIGT: Nollställ status! Utgå från att ingen är aktiv längre.
-        # Om de finns kvar i new_data kommer de sättas till True igen nedan.
         for key in history_dict:
             history_dict[key]['is_active'] = False
 
@@ -93,7 +116,7 @@ if __name__ == "__main__":
             unique_key = f"{apt['id']}_{apt['published']}"
             
             if unique_key in history_dict:
-                history_dict[unique_key].update(apt) # Uppdaterar poäng OCH sätter is_active = True
+                history_dict[unique_key].update(apt) # Uppdaterar poäng, applicants OCH sätter is_active = True
                 count_updated += 1
             else:
                 history_dict[unique_key] = apt
