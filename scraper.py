@@ -41,8 +41,9 @@ def scrape_sssb_api():
                 # --- DATA TVÄTT ---
                 raw_rent = str(apt.get("hyra", "0")).replace(" ", "").replace("\xa0", "")
                 
-                # Hämta intresse-strängen, ex: "277 (10st)"
-                raw_interest = str(apt.get("antalIntresse", "0"))
+                # Hämta intresse-strängen och städa bort konstiga mellanslag
+                # Exempel in: "150\xa0(6st)" -> "150 (6st)"
+                raw_interest = str(apt.get("antalIntresse", "0")).replace("\xa0", " ")
                 
                 # 1. Hitta ANTAL SÖKANDE (Siffran inuti parentesen)
                 applicants_match = re.search(r"\((\d+)", raw_interest)
@@ -50,14 +51,20 @@ def scrape_sssb_api():
                     applicants_count = int(applicants_match.group(1))
                 else:
                     applicants_count = 0
-
-                # 2. Hitta KÖDAGAR (Om det finns 'poang', annars gissa 0)
-                # Ibland är poängen null i listan och syns bara på detaljsidan
-                raw_points = apt.get("poang")
-                if raw_points:
-                    queue_days = int(raw_points) 
+                    
+                # 2. Hitta KÖDAGAR (Siffrorna i BÖRJAN av strängen)
+                # Regex ^(\d+) betyder: "Starten av raden, följt av siffror"
+                queue_match = re.match(r"^(\d+)", raw_interest.strip())
+                
+                if queue_match:
+                    queue_days = int(queue_match.group(1))
                 else:
-                    queue_days = 0 
+                    # Fallback om det inte stod först i strängen, kolla 'poang'-fältet
+                    raw_points = apt.get("poang")
+                    if raw_points:
+                        queue_days = int(raw_points)
+                    else:
+                        queue_days = 0
 
                 parsed_apt = {
                     "last_seen": datetime.now().strftime("%Y-%m-%d"),
@@ -67,8 +74,8 @@ def scrape_sssb_api():
                     "type": apt.get("typ", "Okänt"),
                     "sqm": int(apt.get("yta", 0)),
                     "rent": int(raw_rent) if raw_rent.isdigit() else 0,
-                    "queue_days": queue_days,
-                    "applicants": applicants_count,  # <--- HÄR ÄR NYA DATAN!
+                    "queue_days": queue_days,      # <--- Nu bör denna funka!
+                    "applicants": applicants_count, 
                     "floor": apt.get("vaning", ""),
                     "id": apt.get("objektNr", ""),
                     "is_active": True
@@ -96,15 +103,14 @@ if __name__ == "__main__":
             history = []
 
         # --- STÄDPATRULLEN ---
-        # Fixar gamla objekt som saknar 'applicants' så inte koden kraschar
         for old_item in history:
             if "applicants" not in old_item:
                 old_item["applicants"] = 0
 
-        # 1. Skapa dictionary av all historik
+        # 1. Skapa dictionary
         history_dict = {f"{item['id']}_{item.get('published', '')}": item for item in history}
 
-        # 2. VIKTIGT: Nollställ status! Utgå från att ingen är aktiv längre.
+        # 2. Nollställ status
         for key in history_dict:
             history_dict[key]['is_active'] = False
 
@@ -116,7 +122,7 @@ if __name__ == "__main__":
             unique_key = f"{apt['id']}_{apt['published']}"
             
             if unique_key in history_dict:
-                history_dict[unique_key].update(apt) # Uppdaterar poäng, applicants OCH sätter is_active = True
+                history_dict[unique_key].update(apt)
                 count_updated += 1
             else:
                 history_dict[unique_key] = apt
