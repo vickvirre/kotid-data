@@ -2,19 +2,26 @@ name: SSSB Scraper
 
 on:
   schedule:
-    # --- MÅNDAGAR (Deadline 15:55 Svensk tid) ---
-    # Körs 13:55 UTC (Blir 15:55 på Sommar / 14:55 på Vinter)
-    - cron: '55 13 * * 1'
-    # Körs 14:55 UTC (Blir 16:55 på Sommar / 15:55 på Vinter - RÄTT PÅ VINTERN!)
-    - cron: '55 14 * * 1'
+    # --- MÅNDAGAR (Deadline 10:00 Svensk tid) ---
+    # Sommartid (UTC+2): 07:50, 07:55, 07:58 UTC
+    - cron: '50 7 * * 1'
+    - cron: '55 7 * * 1'
+    - cron: '58 7 * * 1'
+    # Vintertid (UTC+1): 08:50, 08:55, 08:58 UTC
+    - cron: '50 8 * * 1'
+    - cron: '55 8 * * 1'
+    - cron: '58 8 * * 1'
 
-    # --- TORSDAGAR (Deadline 09:55 Svensk tid) ---
-    # Körs 07:55 UTC (Blir 09:55 på Sommar / 08:55 på Vinter)
-    - cron: '55 7 * * 4'
-    # Körs 08:55 UTC (Blir 10:55 på Sommar / 09:55 på Vinter - RÄTT PÅ VINTERN!)
-    - cron: '55 8 * * 4'
+    # --- TORSDAGAR (Deadline 16:00 Svensk tid) ---
+    # Sommartid (UTC+2): 13:50, 13:55, 13:58 UTC
+    - cron: '50 13 * * 4'
+    - cron: '55 13 * * 4'
+    - cron: '58 13 * * 4'
+    # Vintertid (UTC+1): 14:50, 14:55, 14:58 UTC
+    - cron: '50 14 * * 4'
+    - cron: '55 14 * * 4'
+    - cron: '58 14 * * 4'
 
-  # Låter oss köra manuellt vid behov
   workflow_dispatch:
 
 permissions:
@@ -23,7 +30,6 @@ permissions:
 jobs:
   scrape_and_commit:
     runs-on: ubuntu-latest
-
     steps:
       - name: Check out code
         uses: actions/checkout@v3
