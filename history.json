@@ -3130,7 +3130,7 @@
     "sqm": 47,
     "rent": 9633,
     "queue_days": 1791,
-    "applicants": 3,
+    "applicants": 4,
     "floor": "3",
     "id": "2303-0903-004",
     "is_active": true
@@ -3311,7 +3311,7 @@
     "type": "Rum i korridor",
     "sqm": 18,
     "rent": 4593,
-    "queue_days": 0,
+    "queue_days": 167,
     "applicants": 1,
     "floor": "12",
     "id": "4210-0115-022",
@@ -3325,8 +3325,8 @@
     "type": "1 rum & pentry",
     "sqm": 24,
     "rent": 3730,
-    "queue_days": 132,
-    "applicants": 2,
+    "queue_days": 167,
+    "applicants": 3,
     "floor": "14",
     "id": "4210-0117-015",
     "is_active": true
