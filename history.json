@@ -4250,7 +4250,7 @@
     "sqm": 18,
     "rent": 4909,
     "queue_days": 257,
-    "applicants": 5,
+    "applicants": 6,
     "floor": "3",
     "id": "2118-0406-049",
     "is_active": true
@@ -4375,8 +4375,8 @@
     "type": "1 rum & pentry",
     "sqm": 28,
     "rent": 4595,
-    "queue_days": 0,
-    "applicants": 0,
+    "queue_days": 170,
+    "applicants": 1,
     "floor": "3",
     "id": "4210-0106-010",
     "is_active": true
