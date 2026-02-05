@@ -4488,7 +4488,7 @@
     "sqm": 56,
     "rent": 7132,
     "queue_days": 552,
-    "applicants": 2,
+    "applicants": 3,
     "floor": "7",
     "id": "5102-3209-001",
     "is_active": true
@@ -4502,7 +4502,7 @@
     "sqm": 56,
     "rent": 7132,
     "queue_days": 552,
-    "applicants": 3,
+    "applicants": 4,
     "floor": "6",
     "id": "5102-3208-001",
     "is_active": true
@@ -4810,7 +4810,7 @@
     "sqm": 18,
     "rent": 4754,
     "queue_days": 0,
-    "applicants": 0,
+    "applicants": 1,
     "floor": "3",
     "id": "7606-1705-023",
     "is_active": true
