@@ -4306,7 +4306,7 @@
     "sqm": 19,
     "rent": 4336,
     "queue_days": 602,
-    "applicants": 12,
+    "applicants": 13,
     "floor": "2",
     "id": "3622-9905-006",
     "is_active": true
@@ -4334,7 +4334,7 @@
     "sqm": 18,
     "rent": 4360,
     "queue_days": 786,
-    "applicants": 9,
+    "applicants": 10,
     "floor": "4",
     "id": "3622-9907-013",
     "is_active": true
@@ -4348,7 +4348,7 @@
     "sqm": 18,
     "rent": 5034,
     "queue_days": 566,
-    "applicants": 8,
+    "applicants": 9,
     "floor": "5",
     "id": "3622-9908-019",
     "is_active": true
@@ -4362,7 +4362,7 @@
     "sqm": 19,
     "rent": 4852,
     "queue_days": 566,
-    "applicants": 10,
+    "applicants": 11,
     "floor": "6",
     "id": "3622-9909-046",
     "is_active": true
@@ -4432,7 +4432,7 @@
     "sqm": 45,
     "rent": 12416,
     "queue_days": 373,
-    "applicants": 4,
+    "applicants": 5,
     "floor": "1",
     "id": "4804-1002-1104",
     "is_active": true
@@ -4446,7 +4446,7 @@
     "sqm": 41,
     "rent": 6764,
     "queue_days": 853,
-    "applicants": 6,
+    "applicants": 7,
     "floor": "Bottenvåning",
     "id": "5102-3202-004",
     "is_active": true
@@ -4544,7 +4544,7 @@
     "sqm": 20,
     "rent": 7488,
     "queue_days": 267,
-    "applicants": 1,
+    "applicants": 2,
     "floor": "9",
     "id": "5102-3610-001",
     "is_active": true
@@ -5160,7 +5160,7 @@
     "sqm": 64,
     "rent": 14514,
     "queue_days": 279,
-    "applicants": 5,
+    "applicants": 6,
     "floor": "Bottenvåning",
     "id": "6202-2301-002",
     "is_active": true
@@ -5174,7 +5174,7 @@
     "sqm": 19,
     "rent": 4917,
     "queue_days": 543,
-    "applicants": 14,
+    "applicants": 15,
     "floor": "2",
     "id": "3622-9905-038",
     "is_active": true
@@ -5188,7 +5188,7 @@
     "sqm": 19,
     "rent": 4360,
     "queue_days": 1698,
-    "applicants": 9,
+    "applicants": 8,
     "floor": "4",
     "id": "3622-9907-072",
     "is_active": true
@@ -5202,7 +5202,7 @@
     "sqm": 19,
     "rent": 5034,
     "queue_days": 436,
-    "applicants": 7,
+    "applicants": 9,
     "floor": "6",
     "id": "3622-9909-006",
     "is_active": true
