@@ -6349,8 +6349,8 @@
     "type": "1 rum & pentry",
     "sqm": 18,
     "rent": 4472,
-    "queue_days": 37,
-    "applicants": 2,
+    "queue_days": 204,
+    "applicants": 3,
     "floor": "Bottenvåning",
     "id": "7707-0302-004",
     "is_active": true
@@ -6560,7 +6560,7 @@
     "sqm": 20,
     "rent": 6057,
     "queue_days": 267,
-    "applicants": 3,
+    "applicants": 4,
     "floor": "2",
     "id": "3622-9205-206",
     "is_active": true
@@ -6629,8 +6629,8 @@
     "type": "1 rum & pentry",
     "sqm": 29,
     "rent": 7358,
-    "queue_days": 99,
-    "applicants": 2,
+    "queue_days": 255,
+    "applicants": 4,
     "floor": "3",
     "id": "4415-0105-066",
     "is_active": true
@@ -6686,7 +6686,7 @@
     "sqm": 23,
     "rent": 5416,
     "queue_days": 561,
-    "applicants": 7,
+    "applicants": 8,
     "floor": "3",
     "id": "6404-0204-001",
     "is_active": true
@@ -6700,7 +6700,7 @@
     "sqm": 23,
     "rent": 5416,
     "queue_days": 561,
-    "applicants": 6,
+    "applicants": 7,
     "floor": "3",
     "id": "6404-0304-007",
     "is_active": true
@@ -6713,8 +6713,8 @@
     "type": "1 rum & pentry",
     "sqm": 23,
     "rent": 5411,
-    "queue_days": 122,
-    "applicants": 2,
+    "queue_days": 234,
+    "applicants": 4,
     "floor": "Bottenvåning",
     "id": "6404-8201-015",
     "is_active": true
@@ -6727,8 +6727,8 @@
     "type": "1 rum & pentry",
     "sqm": 25,
     "rent": 6229,
-    "queue_days": 0,
-    "applicants": 0,
+    "queue_days": 266,
+    "applicants": 2,
     "floor": "Sutterängvåning",
     "id": "7101-5102-014",
     "is_active": true
@@ -6769,8 +6769,8 @@
     "type": "1 rum & pentry",
     "sqm": 19,
     "rent": 5034,
-    "queue_days": 591,
-    "applicants": 4,
+    "queue_days": 738,
+    "applicants": 5,
     "floor": "5",
     "id": "3622-9908-029",
     "is_active": true
@@ -6783,8 +6783,8 @@
     "type": "1 rum & pentry",
     "sqm": 29,
     "rent": 7358,
-    "queue_days": 99,
-    "applicants": 2,
+    "queue_days": 255,
+    "applicants": 4,
     "floor": "5",
     "id": "4415-0107-072",
     "is_active": true
@@ -6811,8 +6811,8 @@
     "type": "1 rum & pentry",
     "sqm": 24,
     "rent": 6714,
-    "queue_days": 0,
-    "applicants": 0,
+    "queue_days": 266,
+    "applicants": 1,
     "floor": "1",
     "id": "7101-5104-012",
     "is_active": true
