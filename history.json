@@ -7078,7 +7078,7 @@
     "sqm": 37,
     "rent": 10381,
     "queue_days": 272,
-    "applicants": 1,
+    "applicants": 2,
     "floor": "Bottenvåning",
     "id": "1407-6602-008",
     "is_active": true
@@ -7092,7 +7092,7 @@
     "sqm": 39,
     "rent": 7041,
     "queue_days": 1274,
-    "applicants": 8,
+    "applicants": 9,
     "floor": "1",
     "id": "2118-0204-012",
     "is_active": true
@@ -7120,7 +7120,7 @@
     "sqm": 18,
     "rent": 4635,
     "queue_days": 1329,
-    "applicants": 7,
+    "applicants": 6,
     "floor": "2",
     "id": "2204-0505-005",
     "is_active": true
@@ -7669,6 +7669,20 @@
     "applicants": 0,
     "floor": "1",
     "id": "6303-7103-020",
+    "is_active": true
+  },
+  {
+    "last_seen": "2026-02-26",
+    "published": "2026-02-26",
+    "area": "Lappkärrsberget",
+    "address": "Forskarbacken 9 / 1205",
+    "type": "Rum i korridor",
+    "sqm": 18,
+    "rent": 4671,
+    "queue_days": 0,
+    "applicants": 0,
+    "floor": "2",
+    "id": "7707-0304-006",
     "is_active": true
   }
 ]
