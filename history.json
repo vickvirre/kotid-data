@@ -6882,7 +6882,7 @@
     "sqm": 18,
     "rent": 7217,
     "queue_days": 0,
-    "applicants": 0,
+    "applicants": 1,
     "floor": "Bottenvåning",
     "id": "6202-2102-1018",
     "is_active": true
@@ -7371,7 +7371,7 @@
     "type": "3 rum & kök",
     "sqm": 64,
     "rent": 14630,
-    "queue_days": 0,
+    "queue_days": 1,
     "applicants": 1,
     "floor": "1",
     "id": "6202-3302-005",
