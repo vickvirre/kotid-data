@@ -10186,7 +10186,7 @@
     "sqm": 16,
     "rent": 5576,
     "queue_days": 298,
-    "applicants": 7,
+    "applicants": 8,
     "floor": "7",
     "id": "3622-9910-063",
     "is_active": true
@@ -10606,7 +10606,7 @@
     "sqm": 18,
     "rent": 4181,
     "queue_days": 285,
-    "applicants": 9,
+    "applicants": 10,
     "floor": "2",
     "id": "5201-0103-023",
     "is_active": true
@@ -10773,8 +10773,8 @@
     "type": "2 rum & pentry",
     "sqm": 36,
     "rent": 8028,
-    "queue_days": 574,
-    "applicants": 3,
+    "queue_days": 777,
+    "applicants": 4,
     "floor": "6",
     "id": "5201-0509-001",
     "is_active": true
