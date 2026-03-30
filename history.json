@@ -11082,7 +11082,7 @@
     "sqm": 22,
     "rent": 5100,
     "queue_days": 430,
-    "applicants": 14,
+    "applicants": 15,
     "floor": "4",
     "id": "5604-0205-005",
     "is_active": true
@@ -11250,7 +11250,7 @@
     "sqm": 41,
     "rent": 7790,
     "queue_days": 1208,
-    "applicants": 16,
+    "applicants": 17,
     "floor": "7",
     "id": "1106-2509-001",
     "is_active": true
@@ -11278,7 +11278,7 @@
     "sqm": 31,
     "rent": 5855,
     "queue_days": 1595,
-    "applicants": 38,
+    "applicants": 39,
     "floor": "2",
     "id": "2204-0505-009",
     "is_active": true
@@ -11292,7 +11292,7 @@
     "sqm": 47,
     "rent": 9633,
     "queue_days": 1638,
-    "applicants": 19,
+    "applicants": 20,
     "floor": "18",
     "id": "2303-0918-003",
     "is_active": true
@@ -11306,7 +11306,7 @@
     "sqm": 20,
     "rent": 6057,
     "queue_days": 795,
-    "applicants": 7,
+    "applicants": 8,
     "floor": "7",
     "id": "3622-9210-189",
     "is_active": true
@@ -11320,7 +11320,7 @@
     "sqm": 19,
     "rent": 5034,
     "queue_days": 757,
-    "applicants": 16,
+    "applicants": 15,
     "floor": "3",
     "id": "3622-9906-072",
     "is_active": true
@@ -11530,7 +11530,7 @@
     "sqm": 16,
     "rent": 4514,
     "queue_days": 639,
-    "applicants": 10,
+    "applicants": 12,
     "floor": "8",
     "id": "2405-0510-009",
     "is_active": true
