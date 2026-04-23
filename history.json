@@ -14092,7 +14092,7 @@
     "sqm": 55,
     "rent": 10314,
     "queue_days": 1370,
-    "applicants": 9,
+    "applicants": 10,
     "floor": "4",
     "id": "2303-0904-001",
     "is_active": true
@@ -14119,8 +14119,8 @@
     "type": "Rum i korridor",
     "sqm": 16,
     "rent": 4514,
-    "queue_days": 315,
-    "applicants": 10,
+    "queue_days": 328,
+    "applicants": 11,
     "floor": "5",
     "id": "2405-0507-002",
     "is_active": true
@@ -14134,7 +14134,7 @@
     "sqm": 30,
     "rent": 7755,
     "queue_days": 885,
-    "applicants": 6,
+    "applicants": 7,
     "floor": "2",
     "id": "3321-0604-004",
     "is_active": true
@@ -14148,7 +14148,7 @@
     "sqm": 37,
     "rent": 8218,
     "queue_days": 885,
-    "applicants": 6,
+    "applicants": 5,
     "floor": "5",
     "id": "3321-0607-006",
     "is_active": true
@@ -14288,7 +14288,7 @@
     "sqm": 56,
     "rent": 11312,
     "queue_days": 869,
-    "applicants": 6,
+    "applicants": 7,
     "floor": "4",
     "id": "1202-1106-005",
     "is_active": true
@@ -14316,7 +14316,7 @@
     "sqm": 20,
     "rent": 6057,
     "queue_days": 399,
-    "applicants": 7,
+    "applicants": 8,
     "floor": "1",
     "id": "3622-9104-162",
     "is_active": true
@@ -14330,7 +14330,7 @@
     "sqm": 19,
     "rent": 4542,
     "queue_days": 543,
-    "applicants": 9,
+    "applicants": 10,
     "floor": "3",
     "id": "3622-9906-002",
     "is_active": true
