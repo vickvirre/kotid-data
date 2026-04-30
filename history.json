@@ -15211,8 +15211,8 @@
     "type": "2 rum & kök",
     "sqm": 42,
     "rent": 10819,
-    "queue_days": 0,
-    "applicants": 0,
+    "queue_days": 1,
+    "applicants": 1,
     "floor": "5",
     "id": "4415-0107-004",
     "is_active": true
