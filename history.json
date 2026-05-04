@@ -14917,8 +14917,8 @@
     "type": "3 rum & kök",
     "sqm": 64,
     "rent": 14643,
-    "queue_days": 273,
-    "applicants": 1,
+    "queue_days": 797,
+    "applicants": 2,
     "floor": "Bottenvåning",
     "id": "6202-3301-001",
     "is_active": true
@@ -14931,8 +14931,8 @@
     "type": "3 rum & kök",
     "sqm": 64,
     "rent": 14643,
-    "queue_days": 81,
-    "applicants": 1,
+    "queue_days": 797,
+    "applicants": 2,
     "floor": "Bottenvåning",
     "id": "6202-3501-004",
     "is_active": true
@@ -14960,7 +14960,7 @@
     "sqm": 22,
     "rent": 8429,
     "queue_days": 0,
-    "applicants": 0,
+    "applicants": 1,
     "floor": "2",
     "id": "7202-6504-103",
     "is_active": true
@@ -15142,7 +15142,7 @@
     "sqm": 19,
     "rent": 5034,
     "queue_days": 838,
-    "applicants": 15,
+    "applicants": 16,
     "floor": "5",
     "id": "3622-9908-067",
     "is_active": true
@@ -15155,8 +15155,8 @@
     "type": "1 rum & pentry",
     "sqm": 19,
     "rent": 5036,
-    "queue_days": 632,
-    "applicants": 13,
+    "queue_days": 636,
+    "applicants": 14,
     "floor": "5",
     "id": "3622-9908-069",
     "is_active": true
@@ -15534,7 +15534,7 @@
     "sqm": 26,
     "rent": 6101,
     "queue_days": 850,
-    "applicants": 13,
+    "applicants": 14,
     "floor": "5",
     "id": "1202-1107-003",
     "is_active": true
@@ -15729,8 +15729,8 @@
     "type": "1 rum & pentry",
     "sqm": 18,
     "rent": 5002,
-    "queue_days": 520,
-    "applicants": 5,
+    "queue_days": 312,
+    "applicants": 4,
     "floor": "Bottenvåning",
     "id": "7404-2302-011",
     "is_active": true
@@ -15813,8 +15813,8 @@
     "type": "2 rum & kök",
     "sqm": 35,
     "rent": 10392,
-    "queue_days": 685,
-    "applicants": 3,
+    "queue_days": 335,
+    "applicants": 2,
     "floor": "2",
     "id": "6303-5104-1225",
     "is_active": true
