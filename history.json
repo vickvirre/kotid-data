@@ -16303,8 +16303,8 @@
     "type": "1 rum & pentry",
     "sqm": 20,
     "rent": 4807,
-    "queue_days": 681,
-    "applicants": 11,
+    "queue_days": 695,
+    "applicants": 12,
     "floor": "Sutterängvåning",
     "id": "8504-0100-0303",
     "is_active": true
@@ -16472,7 +16472,7 @@
     "sqm": 20,
     "rent": 6864,
     "queue_days": 255,
-    "applicants": 4,
+    "applicants": 5,
     "floor": "1",
     "id": "5102-3503-013",
     "is_active": true
@@ -16668,7 +16668,7 @@
     "sqm": 18,
     "rent": 4655,
     "queue_days": 342,
-    "applicants": 13,
+    "applicants": 12,
     "floor": "Sutterängvåning",
     "id": "7707-0401-002",
     "is_active": true
@@ -16700,5 +16700,33 @@
     "floor": "3",
     "id": "3419-3704-006",
     "is_active": false
+  },
+  {
+    "last_seen": "2026-05-11",
+    "published": "2026-05-11",
+    "area": "Lappkärrsberget",
+    "address": "Forskarbacken 11 / 1003",
+    "type": "1 rum & pentry",
+    "sqm": 18,
+    "rent": 4872,
+    "queue_days": 0,
+    "applicants": 1,
+    "floor": "Bottenvåning",
+    "id": "7707-0402-003",
+    "is_active": true
+  },
+  {
+    "last_seen": "2026-05-11",
+    "published": "2026-05-11",
+    "area": "Roslagstull",
+    "address": "Roslagstullsbacken 5 / 1605",
+    "type": "Rum i korridor",
+    "sqm": 16,
+    "rent": 4514,
+    "queue_days": 0,
+    "applicants": 0,
+    "floor": "6",
+    "id": "2405-0508-006",
+    "is_active": true
   }
 ]
