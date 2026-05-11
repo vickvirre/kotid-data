@@ -16709,7 +16709,7 @@
     "type": "1 rum & pentry",
     "sqm": 18,
     "rent": 4872,
-    "queue_days": 0,
+    "queue_days": 304,
     "applicants": 1,
     "floor": "Bottenvåning",
     "id": "7707-0402-003",
@@ -16724,7 +16724,7 @@
     "sqm": 16,
     "rent": 4514,
     "queue_days": 0,
-    "applicants": 0,
+    "applicants": 1,
     "floor": "6",
     "id": "2405-0508-006",
     "is_active": true
