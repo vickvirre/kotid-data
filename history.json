@@ -16793,8 +16793,8 @@
     "type": "3 rum & kök",
     "sqm": 56,
     "rent": 13020,
-    "queue_days": 447,
-    "applicants": 8,
+    "queue_days": 627,
+    "applicants": 9,
     "floor": "1",
     "id": "6202-3602-005",
     "is_active": true
@@ -17241,8 +17241,8 @@
     "type": "1 rum & kök",
     "sqm": 22,
     "rent": 8215,
-    "queue_days": 6,
-    "applicants": 1,
+    "queue_days": 54,
+    "applicants": 2,
     "floor": "4",
     "id": "7202-5304-102",
     "is_active": true
