@@ -19677,8 +19677,8 @@
     "type": "3 rum & pentry",
     "sqm": 64,
     "rent": 9587,
-    "queue_days": 1,
-    "applicants": 1,
+    "queue_days": 345,
+    "applicants": 2,
     "floor": "Bottenvåning",
     "id": "6303-7302-005",
     "is_active": true
@@ -19692,7 +19692,7 @@
     "sqm": 23,
     "rent": 5416,
     "queue_days": 0,
-    "applicants": 0,
+    "applicants": 2,
     "floor": "2",
     "id": "6404-0303-025",
     "is_active": true
@@ -19719,8 +19719,8 @@
     "type": "2 rum & kök",
     "sqm": 35,
     "rent": 11350,
-    "queue_days": 0,
-    "applicants": 0,
+    "queue_days": 1,
+    "applicants": 1,
     "floor": "4",
     "id": "7202-6506-111",
     "is_active": true
