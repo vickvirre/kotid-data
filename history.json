@@ -22828,7 +22828,7 @@
     "sqm": 16,
     "rent": 3622,
     "queue_days": 345,
-    "applicants": 10,
+    "applicants": 11,
     "floor": "2",
     "id": "5102-3204-011",
     "is_active": true
@@ -22842,7 +22842,7 @@
     "sqm": 16,
     "rent": 3622,
     "queue_days": 348,
-    "applicants": 10,
+    "applicants": 11,
     "floor": "9",
     "id": "5102-3211-019",
     "is_active": true
