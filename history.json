@@ -24549,7 +24549,7 @@
     "type": "1 rum & kök",
     "sqm": 23,
     "rent": 8342,
-    "queue_days": 89,
+    "queue_days": 90,
     "applicants": 4,
     "floor": "1",
     "id": "7202-5301-104",
@@ -24970,7 +24970,7 @@
     "sqm": 22,
     "rent": 8421,
     "queue_days": 33,
-    "applicants": 1,
+    "applicants": 2,
     "floor": "3",
     "id": "7202-6505-103",
     "is_active": true
@@ -25068,7 +25068,7 @@
     "sqm": 23,
     "rent": 8527,
     "queue_days": 42,
-    "applicants": 3,
+    "applicants": 2,
     "floor": "1",
     "id": "7202-6503-109",
     "is_active": true
@@ -25138,7 +25138,7 @@
     "sqm": 34,
     "rent": 6699,
     "queue_days": 1008,
-    "applicants": 10,
+    "applicants": 9,
     "floor": "3",
     "id": "1106-2505-003",
     "is_active": true
