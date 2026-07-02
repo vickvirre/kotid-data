@@ -25977,7 +25977,7 @@
     "type": "1 rum & kök",
     "sqm": 18,
     "rent": 6920,
-    "queue_days": 25,
+    "queue_days": 63,
     "applicants": 4,
     "floor": "Bottenvåning",
     "id": "6202-1102-1024",
@@ -26454,7 +26454,7 @@
     "sqm": 45,
     "rent": 12346,
     "queue_days": 339,
-    "applicants": 3,
+    "applicants": 2,
     "floor": "Bottenvåning",
     "id": "4804-1001-1004",
     "is_active": true
@@ -26496,7 +26496,7 @@
     "sqm": 56,
     "rent": 7132,
     "queue_days": 1498,
-    "applicants": 6,
+    "applicants": 7,
     "floor": "2",
     "id": "5102-3204-002",
     "is_active": true
