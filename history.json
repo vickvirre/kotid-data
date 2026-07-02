@@ -26439,8 +26439,8 @@
     "type": "Rum i korridor",
     "sqm": 18,
     "rent": 4378,
-    "queue_days": 16,
-    "applicants": 1,
+    "queue_days": 64,
+    "applicants": 2,
     "floor": "11",
     "id": "4210-0114-023",
     "is_active": true
@@ -26453,7 +26453,7 @@
     "type": "2 rum & kök",
     "sqm": 45,
     "rent": 12346,
-    "queue_days": 90,
+    "queue_days": 339,
     "applicants": 3,
     "floor": "Bottenvåning",
     "id": "4804-1001-1004",
@@ -26636,7 +26636,7 @@
     "sqm": 18,
     "rent": 4181,
     "queue_days": 265,
-    "applicants": 4,
+    "applicants": 3,
     "floor": "8",
     "id": "5201-0109-039",
     "is_active": true
