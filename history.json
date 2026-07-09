@@ -26860,7 +26860,7 @@
     "sqm": 18,
     "rent": 7218,
     "queue_days": 43,
-    "applicants": 3,
+    "applicants": 2,
     "floor": "Bottenvåning",
     "id": "6303-5102-1014",
     "is_active": true
@@ -26874,7 +26874,7 @@
     "sqm": 18,
     "rent": 7218,
     "queue_days": 90,
-    "applicants": 5,
+    "applicants": 4,
     "floor": "Bottenvåning",
     "id": "6303-5102-1018",
     "is_active": true
@@ -26888,7 +26888,7 @@
     "sqm": 18,
     "rent": 7179,
     "queue_days": 89,
-    "applicants": 1,
+    "applicants": 2,
     "floor": "2",
     "id": "6303-5104-1220",
     "is_active": true
@@ -26986,7 +26986,7 @@
     "sqm": 18,
     "rent": 4690,
     "queue_days": 391,
-    "applicants": 6,
+    "applicants": 7,
     "floor": "2",
     "id": "2118-0405-034",
     "is_active": true
@@ -27000,7 +27000,7 @@
     "sqm": 18,
     "rent": 4909,
     "queue_days": 391,
-    "applicants": 4,
+    "applicants": 5,
     "floor": "3",
     "id": "2118-0406-049",
     "is_active": true
@@ -27098,7 +27098,7 @@
     "sqm": 19,
     "rent": 4852,
     "queue_days": 403,
-    "applicants": 8,
+    "applicants": 9,
     "floor": "3",
     "id": "3622-9906-031",
     "is_active": true
@@ -27140,7 +27140,7 @@
     "sqm": 17,
     "rent": 5576,
     "queue_days": 468,
-    "applicants": 1,
+    "applicants": 2,
     "floor": "7",
     "id": "3622-9910-018",
     "is_active": true
@@ -27434,7 +27434,7 @@
     "sqm": 18,
     "rent": 7191,
     "queue_days": 89,
-    "applicants": 1,
+    "applicants": 2,
     "floor": "3",
     "id": "6202-2105-1307",
     "is_active": true
@@ -27490,7 +27490,7 @@
     "sqm": 45,
     "rent": 9589,
     "queue_days": 717,
-    "applicants": 2,
+    "applicants": 3,
     "floor": "1",
     "id": "6404-8102-002",
     "is_active": true
@@ -27588,7 +27588,7 @@
     "sqm": 24,
     "rent": 8706,
     "queue_days": 90,
-    "applicants": 4,
+    "applicants": 3,
     "floor": "3",
     "id": "7202-6505-106",
     "is_active": true
@@ -27602,7 +27602,7 @@
     "sqm": 58,
     "rent": 9694,
     "queue_days": 1505,
-    "applicants": 9,
+    "applicants": 10,
     "floor": "3",
     "id": "7303-3005-002",
     "is_active": true
