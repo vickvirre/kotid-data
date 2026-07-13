@@ -26762,7 +26762,7 @@
     "sqm": 18,
     "rent": 7218,
     "queue_days": 91,
-    "applicants": 13,
+    "applicants": 14,
     "floor": "Bottenvåning",
     "id": "6303-5102-1012",
     "is_active": true
@@ -26804,7 +26804,7 @@
     "sqm": 18,
     "rent": 7179,
     "queue_days": 544,
-    "applicants": 8,
+    "applicants": 7,
     "floor": "1",
     "id": "6303-5103-1118",
     "is_active": true
@@ -26832,7 +26832,7 @@
     "sqm": 18,
     "rent": 7166,
     "queue_days": 91,
-    "applicants": 14,
+    "applicants": 13,
     "floor": "2",
     "id": "6303-5104-1217",
     "is_active": true
@@ -26846,7 +26846,7 @@
     "sqm": 18,
     "rent": 7179,
     "queue_days": 91,
-    "applicants": 9,
+    "applicants": 10,
     "floor": "2",
     "id": "6303-5104-1219",
     "is_active": true
@@ -27125,8 +27125,8 @@
     "type": "1 rum & pentry",
     "sqm": 19,
     "rent": 4829,
-    "queue_days": 1224,
-    "applicants": 23,
+    "queue_days": 1417,
+    "applicants": 24,
     "floor": "6",
     "id": "3622-9909-062",
     "is_active": true
@@ -27210,7 +27210,7 @@
     "sqm": 42,
     "rent": 10819,
     "queue_days": 397,
-    "applicants": 7,
+    "applicants": 8,
     "floor": "6",
     "id": "4415-0108-006",
     "is_active": true
@@ -27434,7 +27434,7 @@
     "sqm": 18,
     "rent": 7191,
     "queue_days": 90,
-    "applicants": 10,
+    "applicants": 11,
     "floor": "3",
     "id": "6202-2105-1307",
     "is_active": true
@@ -27504,7 +27504,7 @@
     "sqm": 24,
     "rent": 6555,
     "queue_days": 774,
-    "applicants": 18,
+    "applicants": 19,
     "floor": "2",
     "id": "7101-5105-010",
     "is_active": true
@@ -27559,8 +27559,8 @@
     "type": "1 rum & kök",
     "sqm": 24,
     "rent": 8426,
-    "queue_days": 398,
-    "applicants": 10,
+    "queue_days": 695,
+    "applicants": 11,
     "floor": "4",
     "id": "7202-5104-101",
     "is_active": true
@@ -27588,7 +27588,7 @@
     "sqm": 24,
     "rent": 8706,
     "queue_days": 90,
-    "applicants": 12,
+    "applicants": 13,
     "floor": "3",
     "id": "7202-6505-106",
     "is_active": true
