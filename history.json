@@ -28161,7 +28161,7 @@
     "type": "1 rum & kök",
     "sqm": 22,
     "rent": 8125,
-    "queue_days": 90,
+    "queue_days": 91,
     "applicants": 6,
     "floor": "11",
     "id": "7202-4711-102",
@@ -28540,7 +28540,7 @@
     "sqm": 18,
     "rent": 4472,
     "queue_days": 372,
-    "applicants": 7,
+    "applicants": 8,
     "floor": "6",
     "id": "7707-0308-004",
     "is_active": true
