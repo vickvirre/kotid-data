@@ -28386,7 +28386,7 @@
     "sqm": 21,
     "rent": 5070,
     "queue_days": 90,
-    "applicants": 2,
+    "applicants": 1,
     "floor": "Bottenvåning",
     "id": "7606-1602-006",
     "is_active": true
@@ -28792,7 +28792,7 @@
     "sqm": 18,
     "rent": 4835,
     "queue_days": 84,
-    "applicants": 2,
+    "applicants": 3,
     "floor": "1",
     "id": "7808-1003-028",
     "is_active": true
