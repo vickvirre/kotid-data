@@ -28441,8 +28441,8 @@
     "type": "Rum i korridor",
     "sqm": 18,
     "rent": 4976,
-    "queue_days": 64,
-    "applicants": 2,
+    "queue_days": 90,
+    "applicants": 3,
     "floor": "1",
     "id": "7606-1702-007",
     "is_active": true
