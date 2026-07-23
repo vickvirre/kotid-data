@@ -28918,7 +28918,7 @@
     "sqm": 17,
     "rent": 4614,
     "queue_days": 90,
-    "applicants": 3,
+    "applicants": 4,
     "floor": "Bottenvåning",
     "id": "2405-0502-009",
     "is_active": true
@@ -28932,7 +28932,7 @@
     "sqm": 16,
     "rent": 4514,
     "queue_days": 90,
-    "applicants": 4,
+    "applicants": 5,
     "floor": "5",
     "id": "2405-0507-015",
     "is_active": true
@@ -28974,7 +28974,7 @@
     "sqm": 23,
     "rent": 5338,
     "queue_days": 426,
-    "applicants": 2,
+    "applicants": 3,
     "floor": "1",
     "id": "6404-8302-011",
     "is_active": true
@@ -29016,7 +29016,7 @@
     "sqm": 17,
     "rent": 4971,
     "queue_days": 90,
-    "applicants": 3,
+    "applicants": 4,
     "floor": "7",
     "id": "1106-2309-011",
     "is_active": true
@@ -29240,7 +29240,7 @@
     "sqm": 16,
     "rent": 3622,
     "queue_days": 429,
-    "applicants": 7,
+    "applicants": 8,
     "floor": "8",
     "id": "5102-3210-012",
     "is_active": true
@@ -29254,7 +29254,7 @@
     "sqm": 20,
     "rent": 6864,
     "queue_days": 270,
-    "applicants": 3,
+    "applicants": 4,
     "floor": "Bottenvåning",
     "id": "5102-3502-004",
     "is_active": true
@@ -29380,7 +29380,7 @@
     "sqm": 18,
     "rent": 7191,
     "queue_days": 217,
-    "applicants": 2,
+    "applicants": 3,
     "floor": "3",
     "id": "6202-2105-1314",
     "is_active": true
@@ -29422,7 +29422,7 @@
     "sqm": 23,
     "rent": 5416,
     "queue_days": 379,
-    "applicants": 3,
+    "applicants": 4,
     "floor": "Bottenvåning",
     "id": "6404-0301-009",
     "is_active": true
@@ -29590,7 +29590,7 @@
     "sqm": 18,
     "rent": 4454,
     "queue_days": 90,
-    "applicants": 2,
+    "applicants": 3,
     "floor": "5",
     "id": "7505-0906-020",
     "is_active": true
@@ -29618,7 +29618,7 @@
     "sqm": 18,
     "rent": 4976,
     "queue_days": 88,
-    "applicants": 1,
+    "applicants": 2,
     "floor": "Bottenvåning",
     "id": "7606-1601-005",
     "is_active": true
@@ -29674,7 +29674,7 @@
     "sqm": 17,
     "rent": 4767,
     "queue_days": 85,
-    "applicants": 1,
+    "applicants": 2,
     "floor": "2",
     "id": "7909-0103-009",
     "is_active": true
@@ -29716,7 +29716,7 @@
     "sqm": 18,
     "rent": 4450,
     "queue_days": 648,
-    "applicants": 1,
+    "applicants": 2,
     "floor": "1",
     "id": "7505-0802-003",
     "is_active": true
