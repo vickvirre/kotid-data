@@ -30150,7 +30150,7 @@
     "sqm": 39,
     "rent": 6858,
     "queue_days": 662,
-    "applicants": 6,
+    "applicants": 7,
     "floor": "2",
     "id": "2118-0205-004",
     "is_active": true
@@ -30276,7 +30276,7 @@
     "sqm": 37,
     "rent": 7268,
     "queue_days": 409,
-    "applicants": 2,
+    "applicants": 3,
     "floor": "2",
     "id": "2204-0505-003",
     "is_active": true
