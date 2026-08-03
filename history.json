@@ -29940,7 +29940,7 @@
     "sqm": 17,
     "rent": 4743,
     "queue_days": 90,
-    "applicants": 11,
+    "applicants": 12,
     "floor": "3",
     "id": "1106-2105-011",
     "is_active": true
@@ -29996,7 +29996,7 @@
     "sqm": 17,
     "rent": 4749,
     "queue_days": 90,
-    "applicants": 11,
+    "applicants": 12,
     "floor": "Bottenvåning",
     "id": "1106-2502-008",
     "is_active": true
@@ -30024,7 +30024,7 @@
     "sqm": 17,
     "rent": 4975,
     "queue_days": 90,
-    "applicants": 10,
+    "applicants": 11,
     "floor": "7",
     "id": "1106-2509-019",
     "is_active": true
@@ -30108,7 +30108,7 @@
     "sqm": 18,
     "rent": 4934,
     "queue_days": 231,
-    "applicants": 6,
+    "applicants": 7,
     "floor": "6",
     "id": "1407-6608-015",
     "is_active": true
@@ -30135,7 +30135,7 @@
     "type": "Rum i korridor",
     "sqm": 18,
     "rent": 5015,
-    "queue_days": 383,
+    "queue_days": 659,
     "applicants": 6,
     "floor": "5",
     "id": "2118-0408-051",
@@ -30304,7 +30304,7 @@
     "sqm": 36,
     "rent": 7804,
     "queue_days": 1285,
-    "applicants": 11,
+    "applicants": 10,
     "floor": "19",
     "id": "2303-0919-004",
     "is_active": true
@@ -30583,8 +30583,8 @@
     "type": "1 rum & pentry",
     "sqm": 26,
     "rent": 6869,
-    "queue_days": 432,
-    "applicants": 12,
+    "queue_days": 732,
+    "applicants": 13,
     "floor": "6",
     "id": "5604-0408-003",
     "is_active": true
