@@ -33216,7 +33216,7 @@
     "sqm": 18,
     "rent": 4761,
     "queue_days": 90,
-    "applicants": 4,
+    "applicants": 5,
     "floor": "3",
     "id": "7505-1904-012",
     "is_active": true
@@ -33817,7 +33817,7 @@
     "type": "2 rum & pentry",
     "sqm": 44,
     "rent": 7685,
-    "queue_days": 602,
+    "queue_days": 659,
     "applicants": 9,
     "floor": "2",
     "id": "7505-2103-001",
