@@ -36379,7 +36379,7 @@
     "type": "4 rum & kök",
     "sqm": 74,
     "rent": 11666,
-    "queue_days": 591,
+    "queue_days": 2025,
     "applicants": 3,
     "floor": "2",
     "id": "7303-2904-001",
@@ -36730,7 +36730,7 @@
     "sqm": 22,
     "rent": 8125,
     "queue_days": 0,
-    "applicants": 0,
+    "applicants": 1,
     "floor": "10",
     "id": "7202-4710-106",
     "is_active": true
