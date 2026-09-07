@@ -36156,7 +36156,7 @@
     "sqm": 22,
     "rent": 5266,
     "queue_days": 385,
-    "applicants": 14,
+    "applicants": 15,
     "floor": "Bottenvåning",
     "id": "5201-0503-020",
     "is_active": true
@@ -36197,8 +36197,8 @@
     "type": "1 rum & pentry",
     "sqm": 19,
     "rent": 4465,
-    "queue_days": 467,
-    "applicants": 13,
+    "queue_days": 396,
+    "applicants": 12,
     "floor": "6",
     "id": "7707-0408-005",
     "is_active": true
