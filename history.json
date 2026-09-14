@@ -36775,7 +36775,7 @@
     "applicants": 3,
     "floor": "3",
     "id": "1106-2505-013",
-    "is_active": true
+    "is_active": false
   },
   {
     "last_seen": "2026-09-10",
@@ -36789,7 +36789,7 @@
     "applicants": 5,
     "floor": "1",
     "id": "2118-0404-017",
-    "is_active": true
+    "is_active": false
   },
   {
     "last_seen": "2026-09-10",
@@ -36803,7 +36803,7 @@
     "applicants": 11,
     "floor": "4",
     "id": "4415-0106-069",
-    "is_active": true
+    "is_active": false
   },
   {
     "last_seen": "2026-09-10",
@@ -36817,7 +36817,7 @@
     "applicants": 1,
     "floor": "2",
     "id": "5201-0103-049",
-    "is_active": true
+    "is_active": false
   },
   {
     "last_seen": "2026-09-10",
@@ -36831,7 +36831,7 @@
     "applicants": 1,
     "floor": "4",
     "id": "5201-0105-011",
-    "is_active": true
+    "is_active": false
   },
   {
     "last_seen": "2026-09-10",
@@ -36845,7 +36845,7 @@
     "applicants": 1,
     "floor": "8",
     "id": "5201-0109-006",
-    "is_active": true
+    "is_active": false
   },
   {
     "last_seen": "2026-09-10",
@@ -36859,7 +36859,7 @@
     "applicants": 5,
     "floor": "3",
     "id": "6202-4804-011",
-    "is_active": true
+    "is_active": false
   },
   {
     "last_seen": "2026-09-10",
@@ -36873,7 +36873,7 @@
     "applicants": 3,
     "floor": "1",
     "id": "6404-0302-001",
-    "is_active": true
+    "is_active": false
   },
   {
     "last_seen": "2026-09-10",
@@ -36887,7 +36887,7 @@
     "applicants": 6,
     "floor": "3",
     "id": "6404-0304-004",
-    "is_active": true
+    "is_active": false
   },
   {
     "last_seen": "2026-09-10",
@@ -36901,7 +36901,7 @@
     "applicants": 8,
     "floor": "3",
     "id": "6404-8204-002",
-    "is_active": true
+    "is_active": false
   },
   {
     "last_seen": "2026-09-10",
@@ -36915,7 +36915,7 @@
     "applicants": 11,
     "floor": "3",
     "id": "7101-5106-001",
-    "is_active": true
+    "is_active": false
   },
   {
     "last_seen": "2026-09-10",
@@ -36929,7 +36929,7 @@
     "applicants": 2,
     "floor": "4",
     "id": "7202-6106-102",
-    "is_active": true
+    "is_active": false
   },
   {
     "last_seen": "2026-09-10",
@@ -36943,7 +36943,7 @@
     "applicants": 1,
     "floor": "1",
     "id": "7404-2202-027",
-    "is_active": true
+    "is_active": false
   },
   {
     "last_seen": "2026-09-10",
@@ -36957,7 +36957,7 @@
     "applicants": 6,
     "floor": "Bottenvåning",
     "id": "7404-2302-007",
-    "is_active": true
+    "is_active": false
   },
   {
     "last_seen": "2026-09-10",
@@ -36971,7 +36971,7 @@
     "applicants": 1,
     "floor": "1",
     "id": "7505-1402-011",
-    "is_active": true
+    "is_active": false
   },
   {
     "last_seen": "2026-09-10",
@@ -36985,7 +36985,7 @@
     "applicants": 2,
     "floor": "3",
     "id": "7505-1904-006",
-    "is_active": true
+    "is_active": false
   },
   {
     "last_seen": "2026-09-10",
@@ -36999,7 +36999,7 @@
     "applicants": 1,
     "floor": "2",
     "id": "7505-2004-030",
-    "is_active": true
+    "is_active": false
   },
   {
     "last_seen": "2026-09-10",
@@ -37013,7 +37013,7 @@
     "applicants": 6,
     "floor": "6",
     "id": "7707-0507-001",
-    "is_active": true
+    "is_active": false
   },
   {
     "last_seen": "2026-09-10",
@@ -37027,7 +37027,7 @@
     "applicants": 2,
     "floor": "1",
     "id": "7808-0202-007",
-    "is_active": true
+    "is_active": false
   },
   {
     "last_seen": "2026-09-10",
@@ -37041,7 +37041,7 @@
     "applicants": 2,
     "floor": "1",
     "id": "4703-1502-1109",
-    "is_active": true
+    "is_active": false
   },
   {
     "last_seen": "2026-09-10",
@@ -37055,7 +37055,7 @@
     "applicants": 1,
     "floor": "8",
     "id": "5201-0109-037",
-    "is_active": true
+    "is_active": false
   },
   {
     "last_seen": "2026-09-10",
@@ -37069,7 +37069,7 @@
     "applicants": 8,
     "floor": "1",
     "id": "6303-7602-001",
-    "is_active": true
+    "is_active": false
   },
   {
     "last_seen": "2026-09-10",
@@ -37083,7 +37083,7 @@
     "applicants": 4,
     "floor": "1",
     "id": "6404-0302-022",
-    "is_active": true
+    "is_active": false
   },
   {
     "last_seen": "2026-09-10",
@@ -37097,7 +37097,7 @@
     "applicants": 1,
     "floor": "1",
     "id": "7404-2303-017",
-    "is_active": true
+    "is_active": false
   },
   {
     "last_seen": "2026-09-10",
@@ -37111,7 +37111,7 @@
     "applicants": 0,
     "floor": "3",
     "id": "7404-2405-007",
-    "is_active": true
+    "is_active": false
   },
   {
     "last_seen": "2026-09-10",
@@ -37125,7 +37125,7 @@
     "applicants": 0,
     "floor": "4",
     "id": "7505-1305-026",
-    "is_active": true
+    "is_active": false
   },
   {
     "last_seen": "2026-09-10",
@@ -37139,7 +37139,7 @@
     "applicants": 1,
     "floor": "Bottenvåning",
     "id": "7505-2102-006",
-    "is_active": true
+    "is_active": false
   },
   {
     "last_seen": "2026-09-10",
@@ -37153,7 +37153,7 @@
     "applicants": 0,
     "floor": "2",
     "id": "7505-2103-007",
-    "is_active": true
+    "is_active": false
   },
   {
     "last_seen": "2026-09-10",
@@ -37167,7 +37167,7 @@
     "applicants": 1,
     "floor": "3",
     "id": "7505-2104-011",
-    "is_active": true
+    "is_active": false
   },
   {
     "last_seen": "2026-09-10",
@@ -37181,7 +37181,7 @@
     "applicants": 12,
     "floor": "6",
     "id": "3622-9909-007",
-    "is_active": true
+    "is_active": false
   },
   {
     "last_seen": "2026-09-10",
@@ -37195,7 +37195,7 @@
     "applicants": 7,
     "floor": "5",
     "id": "5604-0407-003",
-    "is_active": true
+    "is_active": false
   },
   {
     "last_seen": "2026-09-10",
@@ -37209,7 +37209,7 @@
     "applicants": 6,
     "floor": "1",
     "id": "7303-2503-004",
-    "is_active": true
+    "is_active": false
   },
   {
     "last_seen": "2026-09-10",
@@ -37223,7 +37223,7 @@
     "applicants": 2,
     "floor": "Bottenvåning",
     "id": "6202-2201-004",
-    "is_active": true
+    "is_active": false
   },
   {
     "last_seen": "2026-09-10",
@@ -37237,6 +37237,412 @@
     "applicants": 7,
     "floor": "12",
     "id": "8303-010010071",
+    "is_active": false
+  },
+  {
+    "last_seen": "2026-09-14",
+    "published": "2026-09-14",
+    "area": "Jerum",
+    "address": "Studentbacken 25 / 1507",
+    "type": "Rum i korridor",
+    "sqm": 17,
+    "rent": 4749,
+    "queue_days": 0,
+    "applicants": 0,
+    "floor": "5",
+    "id": "1106-2507-011",
+    "is_active": true
+  },
+  {
+    "last_seen": "2026-09-14",
+    "published": "2026-09-14",
+    "area": "Forum",
+    "address": "Körsbärsvägen 4 A / 1113",
+    "type": "Rum i korridor",
+    "sqm": 18,
+    "rent": 4690,
+    "queue_days": 0,
+    "applicants": 0,
+    "floor": "1",
+    "id": "2118-0404-079",
+    "is_active": true
+  },
+  {
+    "last_seen": "2026-09-14",
+    "published": "2026-09-14",
+    "area": "Idun",
+    "address": "Norra Stationsgatan 99 / 1751",
+    "type": "1 rum & pentry",
+    "sqm": 17,
+    "rent": 5758,
+    "queue_days": 119,
+    "applicants": 1,
+    "floor": "7",
+    "id": "3622-9910-013",
+    "is_active": true
+  },
+  {
+    "last_seen": "2026-09-14",
+    "published": "2026-09-14",
+    "area": "Pax",
+    "address": "Emmylundsvägen 5 / 0902",
+    "type": "1 rum & pentry",
+    "sqm": 22,
+    "rent": 5266,
+    "queue_days": 0,
+    "applicants": 1,
+    "floor": "Sutterängvåning",
+    "id": "5201-0502-002",
+    "is_active": true
+  },
+  {
+    "last_seen": "2026-09-14",
+    "published": "2026-09-14",
+    "area": "Kungshamra",
+    "address": "Kungshamra 25 B / 1002",
+    "type": "3 rum & kök",
+    "sqm": 64,
+    "rent": 14353,
+    "queue_days": 0,
+    "applicants": 0,
+    "floor": "Bottenvåning",
+    "id": "6202-2501-005",
+    "is_active": true
+  },
+  {
+    "last_seen": "2026-09-14",
+    "published": "2026-09-14",
+    "area": "Jerum",
+    "address": "Studentbacken 23 / 1014",
+    "type": "Rum i korridor",
+    "sqm": 17,
+    "rent": 4975,
+    "queue_days": 0,
+    "applicants": 0,
+    "floor": "Bottenvåning",
+    "id": "1106-2302-011",
+    "is_active": true
+  },
+  {
+    "last_seen": "2026-09-14",
+    "published": "2026-09-14",
+    "area": "Jerum",
+    "address": "Studentbacken 23 / 1008",
+    "type": "Rum i korridor",
+    "sqm": 17,
+    "rent": 4975,
+    "queue_days": 0,
+    "applicants": 0,
+    "floor": "Bottenvåning",
+    "id": "1106-2302-017",
+    "is_active": true
+  },
+  {
+    "last_seen": "2026-09-14",
+    "published": "2026-09-14",
+    "area": "Jerum",
+    "address": "Studentbacken 23 / 1201",
+    "type": "Rum i korridor",
+    "sqm": 17,
+    "rent": 4975,
+    "queue_days": 0,
+    "applicants": 0,
+    "floor": "2",
+    "id": "1106-2304-005",
+    "is_active": true
+  },
+  {
+    "last_seen": "2026-09-14",
+    "published": "2026-09-14",
+    "area": "Munin",
+    "address": "Öregrundsgatan 11 / 1601",
+    "type": "2 rum & kök",
+    "sqm": 55,
+    "rent": 10658,
+    "queue_days": 0,
+    "applicants": 0,
+    "floor": "6",
+    "id": "1202-1108-001",
+    "is_active": true
+  },
+  {
+    "last_seen": "2026-09-14",
+    "published": "2026-09-14",
+    "area": "Fyrtalet",
+    "address": "Värtavägen 66 / 1106",
+    "type": "Rum i korridor",
+    "sqm": 18,
+    "rent": 4929,
+    "queue_days": 0,
+    "applicants": 0,
+    "floor": "1",
+    "id": "1407-6603-008",
+    "is_active": true
+  },
+  {
+    "last_seen": "2026-09-14",
+    "published": "2026-09-14",
+    "area": "Fyrtalet",
+    "address": "Värtavägen 66 / 1309",
+    "type": "Rum i korridor",
+    "sqm": 18,
+    "rent": 4928,
+    "queue_days": 0,
+    "applicants": 0,
+    "floor": "3",
+    "id": "1407-6605-011",
+    "is_active": true
+  },
+  {
+    "last_seen": "2026-09-14",
+    "published": "2026-09-14",
+    "area": "Fyrtalet",
+    "address": "Värtavägen 66 / 1615",
+    "type": "Rum i korridor",
+    "sqm": 18,
+    "rent": 4928,
+    "queue_days": 0,
+    "applicants": 0,
+    "floor": "6",
+    "id": "1407-6608-017",
+    "is_active": true
+  },
+  {
+    "last_seen": "2026-09-14",
+    "published": "2026-09-14",
+    "area": "Forum",
+    "address": "Körsbärsvägen 4 C / 1407",
+    "type": "Rum i korridor",
+    "sqm": 18,
+    "rent": 4690,
+    "queue_days": 0,
+    "applicants": 1,
+    "floor": "4",
+    "id": "2118-0407-039",
+    "is_active": true
+  },
+  {
+    "last_seen": "2026-09-14",
+    "published": "2026-09-14",
+    "area": "Domus",
+    "address": "Körsbärsvägen 3 / 1002",
+    "type": "1 rum & pentry",
+    "sqm": 21,
+    "rent": 5508,
+    "queue_days": 0,
+    "applicants": 1,
+    "floor": "Bottenvåning",
+    "id": "2204-0303-002",
+    "is_active": true
+  },
+  {
+    "last_seen": "2026-09-14",
+    "published": "2026-09-14",
+    "area": "Roslagstull",
+    "address": "Roslagstullsbacken 5 / 1106",
+    "type": "Rum i korridor",
+    "sqm": 17,
+    "rent": 4523,
+    "queue_days": 0,
+    "applicants": 1,
+    "floor": "1",
+    "id": "2405-0503-007",
+    "is_active": true
+  },
+  {
+    "last_seen": "2026-09-14",
+    "published": "2026-09-14",
+    "area": "Embla",
+    "address": "Maltgatan 12 / 1610",
+    "type": "1 rum & pentry",
+    "sqm": 26,
+    "rent": 6958,
+    "queue_days": 0,
+    "applicants": 0,
+    "floor": "6",
+    "id": "4415-0108-073",
+    "is_active": true
+  },
+  {
+    "last_seen": "2026-09-14",
+    "published": "2026-09-14",
+    "area": "Kungshamra",
+    "address": "Kungshamra 41 / 1308",
+    "type": "Rum i korridor",
+    "sqm": 19,
+    "rent": 4167,
+    "queue_days": 0,
+    "applicants": 0,
+    "floor": "3",
+    "id": "6202-4105-022",
+    "is_active": true
+  },
+  {
+    "last_seen": "2026-09-14",
+    "published": "2026-09-14",
+    "area": "Lappkärrsberget",
+    "address": "Professorsslingan 43 / 1404",
+    "type": "4 rum & kök",
+    "sqm": 74,
+    "rent": 11665,
+    "queue_days": 0,
+    "applicants": 0,
+    "floor": "4",
+    "id": "7303-3106-004",
+    "is_active": true
+  },
+  {
+    "last_seen": "2026-09-14",
+    "published": "2026-09-14",
+    "area": "Lappkärrsberget",
+    "address": "Forskarbacken 9 / 1311",
+    "type": "Rum i korridor",
+    "sqm": 18,
+    "rent": 4671,
+    "queue_days": 0,
+    "applicants": 0,
+    "floor": "3",
+    "id": "7707-0305-012",
+    "is_active": true
+  },
+  {
+    "last_seen": "2026-09-14",
+    "published": "2026-09-14",
+    "area": "Lappkärrsberget",
+    "address": "Forskarbacken 7 / 1418",
+    "type": "Rum i korridor",
+    "sqm": 18,
+    "rent": 4689,
+    "queue_days": 0,
+    "applicants": 0,
+    "floor": "4",
+    "id": "7808-0205-020",
+    "is_active": true
+  },
+  {
+    "last_seen": "2026-09-14",
+    "published": "2026-09-14",
+    "area": "Domus",
+    "address": "Körsbärsvägen 5 / 1006",
+    "type": "1 rum & pentry",
+    "sqm": 18,
+    "rent": 4654,
+    "queue_days": 0,
+    "applicants": 1,
+    "floor": "Bottenvåning",
+    "id": "2204-0503-006",
+    "is_active": true
+  },
+  {
+    "last_seen": "2026-09-14",
+    "published": "2026-09-14",
+    "area": "Embla",
+    "address": "Maltgatan 8 / 1206",
+    "type": "1 rum & pentry",
+    "sqm": 40,
+    "rent": 8663,
+    "queue_days": 769,
+    "applicants": 3,
+    "floor": "2",
+    "id": "4415-0104-012",
+    "is_active": true
+  },
+  {
+    "last_seen": "2026-09-14",
+    "published": "2026-09-14",
+    "area": "Embla",
+    "address": "Maltgatan 12 / 1505",
+    "type": "1 rum & pentry",
+    "sqm": 29,
+    "rent": 7358,
+    "queue_days": 769,
+    "applicants": 2,
+    "floor": "5",
+    "id": "4415-0107-066",
+    "is_active": true
+  },
+  {
+    "last_seen": "2026-09-14",
+    "published": "2026-09-14",
+    "area": "Kungshamra",
+    "address": "Kungshamra 11 / 1022",
+    "type": "1 rum & kök",
+    "sqm": 18,
+    "rent": 6907,
+    "queue_days": 0,
+    "applicants": 0,
+    "floor": "Bottenvåning",
+    "id": "6202-1102-1022",
+    "is_active": true
+  },
+  {
+    "last_seen": "2026-09-14",
+    "published": "2026-09-14",
+    "area": "Kungshamra",
+    "address": "Kungshamra 21 / 1319",
+    "type": "1 rum & kök",
+    "sqm": 18,
+    "rent": 7178,
+    "queue_days": 0,
+    "applicants": 0,
+    "floor": "3",
+    "id": "6202-2105-1319",
+    "is_active": true
+  },
+  {
+    "last_seen": "2026-09-14",
+    "published": "2026-09-14",
+    "area": "Kungshamra",
+    "address": "Kungshamra 3 / 1129",
+    "type": "1 rum & pentry",
+    "sqm": 23,
+    "rent": 5416,
+    "queue_days": 461,
+    "applicants": 4,
+    "floor": "1",
+    "id": "6404-0302-019",
+    "is_active": true
+  },
+  {
+    "last_seen": "2026-09-14",
+    "published": "2026-09-14",
+    "area": "Lappkärrsberget",
+    "address": "Forskarbacken 10 / 1008",
+    "type": "Rum i korridor",
+    "sqm": 18,
+    "rent": 5060,
+    "queue_days": 0,
+    "applicants": 0,
+    "floor": "2",
+    "id": "7505-1303-009",
+    "is_active": true
+  },
+  {
+    "last_seen": "2026-09-14",
+    "published": "2026-09-14",
+    "area": "Lappkärrsberget",
+    "address": "Amanuensvägen 10 / 1210",
+    "type": "Rum i korridor",
+    "sqm": 18,
+    "rent": 4765,
+    "queue_days": 0,
+    "applicants": 0,
+    "floor": "3",
+    "id": "7505-2104-012",
+    "is_active": true
+  },
+  {
+    "last_seen": "2026-09-14",
+    "published": "2026-09-14",
+    "area": "Roslagstull",
+    "address": "Roslagstullsbacken 5 / 1708",
+    "type": "1 rum i dubblettlägenhet",
+    "sqm": 10,
+    "rent": 4093,
+    "queue_days": 0,
+    "applicants": 0,
+    "floor": "7",
+    "id": "2405-0509-009",
     "is_active": true
   }
 ]
