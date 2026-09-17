@@ -37822,7 +37822,7 @@
     "sqm": 18,
     "rent": 4928,
     "queue_days": 223,
-    "applicants": 1,
+    "applicants": 2,
     "floor": "5",
     "id": "1407-6607-005",
     "is_active": true
@@ -37836,7 +37836,7 @@
     "sqm": 65,
     "rent": 9930,
     "queue_days": 903,
-    "applicants": 5,
+    "applicants": 6,
     "floor": "7",
     "id": "1407-6609-003",
     "is_active": true
