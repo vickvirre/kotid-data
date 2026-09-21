@@ -38424,7 +38424,7 @@
     "sqm": 17,
     "rent": 4523,
     "queue_days": 0,
-    "applicants": 0,
+    "applicants": 1,
     "floor": "2",
     "id": "2405-0504-013",
     "is_active": true
@@ -38438,7 +38438,7 @@
     "sqm": 16,
     "rent": 4514,
     "queue_days": 0,
-    "applicants": 0,
+    "applicants": 1,
     "floor": "6",
     "id": "2405-0508-003",
     "is_active": true
@@ -38536,7 +38536,7 @@
     "sqm": 23,
     "rent": 5416,
     "queue_days": 1520,
-    "applicants": 3,
+    "applicants": 4,
     "floor": "2",
     "id": "6404-0203-001",
     "is_active": true
@@ -38620,7 +38620,7 @@
     "sqm": 18,
     "rent": 4985,
     "queue_days": 0,
-    "applicants": 0,
+    "applicants": 1,
     "floor": "Bottenvåning",
     "id": "7505-2102-006",
     "is_active": true
@@ -38634,7 +38634,7 @@
     "sqm": 20,
     "rent": 5296,
     "queue_days": 0,
-    "applicants": 0,
+    "applicants": 1,
     "floor": "3",
     "id": "7606-1805-006",
     "is_active": true
@@ -38689,8 +38689,8 @@
     "type": "1 rum & pentry",
     "sqm": 19,
     "rent": 4827,
-    "queue_days": 0,
-    "applicants": 1,
+    "queue_days": 127,
+    "applicants": 2,
     "floor": "3",
     "id": "3622-9906-043",
     "is_active": true
@@ -38717,7 +38717,7 @@
     "type": "1 rum & pentry",
     "sqm": 19,
     "rent": 5034,
-    "queue_days": 0,
+    "queue_days": 127,
     "applicants": 1,
     "floor": "5",
     "id": "3622-9908-070",
@@ -38735,6 +38735,48 @@
     "applicants": 0,
     "floor": "5",
     "id": "7202-4705-102",
+    "is_active": true
+  },
+  {
+    "last_seen": "2026-09-21",
+    "published": "2026-09-21",
+    "area": "Pax",
+    "address": "Emmylundsvägen 1 / 1802",
+    "type": "Rum i korridor",
+    "sqm": 18,
+    "rent": 4181,
+    "queue_days": 0,
+    "applicants": 0,
+    "floor": "8",
+    "id": "5201-0109-006",
+    "is_active": true
+  },
+  {
+    "last_seen": "2026-09-21",
+    "published": "2026-09-21",
+    "area": "Pax",
+    "address": "Emmylundsvägen 3 / 1311",
+    "type": "Rum i korridor",
+    "sqm": 18,
+    "rent": 4181,
+    "queue_days": 0,
+    "applicants": 0,
+    "floor": "3",
+    "id": "5201-0104-037",
+    "is_active": true
+  },
+  {
+    "last_seen": "2026-09-21",
+    "published": "2026-09-21",
+    "area": "Forum",
+    "address": "Körsbärsvägen 4 A / 1111",
+    "type": "Rum i korridor",
+    "sqm": 18,
+    "rent": 4690,
+    "queue_days": 0,
+    "applicants": 0,
+    "floor": "1",
+    "id": "2118-0404-077",
     "is_active": true
   }
 ]
