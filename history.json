@@ -39964,7 +39964,7 @@
     "sqm": 40,
     "rent": 7031,
     "queue_days": 1204,
-    "applicants": 10,
+    "applicants": 11,
     "floor": "Bottenvåning",
     "id": "1106-0103-009",
     "is_active": true
@@ -40006,7 +40006,7 @@
     "sqm": 37,
     "rent": 8182,
     "queue_days": 776,
-    "applicants": 11,
+    "applicants": 12,
     "floor": "17",
     "id": "2303-0917-005",
     "is_active": true
@@ -40033,7 +40033,7 @@
     "type": "Rum i korridor",
     "sqm": 17,
     "rent": 4520,
-    "queue_days": 103,
+    "queue_days": 124,
     "applicants": 2,
     "floor": "5",
     "id": "2405-0507-008",
